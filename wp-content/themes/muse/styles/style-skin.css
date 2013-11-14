@@ -1,0 +1,476 @@
+/*
+====================================================================================================
+CSS Name:		Theme Stylesheet
+URI: 			http://themes.grandpixels.com/muse
+Description: 	Theme stylesheet that defines whole design style.
+Version: 		1.0.0
+Author: 		Pavel Richter / Grand Pixels
+Author URI: 	http://grandpixels.com
+====================================================================================================
+
+====================================================================================================
+Contents
+====================================================================================================
+01.				CSS Common
+02.				Body
+03.				Typography
+04.				Forms				[Comments]
+05.				Grid				[Common]
+----------------------------------------------------------------------------------------------------
+06.				Header				[Logo]
+07.				Navigation			[Navigation - Primary, Navigation - Mobile]
+08.				Slideshow
+09.				Posts				[Common, Blog & Event Grid Home, Blog Grid, Event Grid, Event List, Archive Grid]
+10.				Singles 			[Common, Single Blog, Single Event, Single Album]
+11.				Pagination
+----------------------------------------------------------------------------------------------------
+12.				Widgets
+13.				Components
+====================================================================================================
+====================================================================================================
+
+====================================================================================================
+CSS Common
+====================================================================================================
+*/
+
+/* Selection */
+::selection { background: #cd503c; }
+::-moz-selection { background: #cd503c; }
+
+/* Links */
+a { color: #ffffff; }
+a:hover { color: #ffffff; border-color: #ffffff; background-color: #198caf; }
+a.underline, .underline a, a.underline-hover:hover, .underline-hover a:hover { color: #ffffff; border-color: #ffffff; }
+
+/*
+====================================================================================================
+Body
+====================================================================================================
+*/
+
+body { color: #ffffff; background-color: #00050a; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Body Background
+----------------------------------------------------------------------------------------------------
+*/
+
+.body-background { background-color: #00050a; }
+
+/*
+====================================================================================================
+Typography
+====================================================================================================
+*/
+
+/* Blockquotes */
+blockquote { color: #cd503c; }
+blockquote cite { color: #ffffff; }
+
+/*
+====================================================================================================
+Forms
+====================================================================================================
+*/
+
+button, .button a, #comment-submit { color: #ffffff; background-color: #198caf; border-color: #ffffff; }
+button:hover, .button a:hover, #comment-submit:hover { background-color: #cd503c !important; border-color: #cd503c; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Comments
+----------------------------------------------------------------------------------------------------
+*/
+
+.comments .comment-body { background-color: #00050a; }
+.comments .comment-body:before { border-top-color: #00050a; }
+.comments .bypostauthor .comment-body { background-color: #198caf; }
+.comments .bypostauthor .comment-body:before { border-top-color: #198caf; }
+.comments .bypostauthor .comment-reply-link:hover { color: #282d32; background-color: #ffffff; }
+.comments #cancel-comment-reply-link { color: #cd503c; }
+.comments #cancel-comment-reply-link:hover { color: #ffffff; }
+
+/*
+====================================================================================================
+Grid
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Common
+----------------------------------------------------------------------------------------------------
+*/
+
+.grid-tiles .tile-block,
+.grid-tiles-sidebar .tile-block { background-color: #282d32; }
+
+/*
+====================================================================================================
+Header
+====================================================================================================
+*/
+
+header.header { position: fixed; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Logo
+----------------------------------------------------------------------------------------------------
+*/
+
+.logo-default { background-color: #198caf; }
+
+/*
+====================================================================================================
+Navigation
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Navigation - Primary
+----------------------------------------------------------------------------------------------------
+*/
+
+nav.navigation { position: fixed; }
+
+/* 1st Level */
+nav.navigation li,
+nav.navigation li a { color: #ffffff !important; background-color: #198caf; }
+nav.navigation li:hover a,
+nav.navigation li a:hover { color: #282d32 !important; background-color: #ffffff !important; }
+
+/* 2nd+ Level */
+nav.navigation li li,
+nav.navigation li li a { background-color: #ffffff; }
+nav.navigation li li a:hover { color: #198caf !important; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Navigation - Mobile
+----------------------------------------------------------------------------------------------------
+*/
+
+.navigation-mobile-button a { background-color: #198caf; }
+.navigation-mobile-button a:hover { background-color: #cd503c; }
+nav.navigation-mobile li a { color: #282d32 !important; background-color: #ffffff; }
+nav.navigation-mobile li a:hover { color: #ffffff !important; background-color: #198caf; }
+
+/*
+====================================================================================================
+Toolbar
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+qTranslate Switcher
+----------------------------------------------------------------------------------------------------
+*/
+
+.toolbar .qtrans_language_chooser li { background-color: #ffffff; }
+.toolbar .qtrans_language_chooser li:hover { background-color: #198caf; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Search - Modal
+----------------------------------------------------------------------------------------------------
+*/
+
+.modal-search-button { background-color: #ffffff; }
+.modal-search-button:hover { background-color: #198caf; }
+.modal-search-close { background-color: #cd503c; }
+.modal-search-close:hover { background-color: #198caf; }
+
+/*
+====================================================================================================
+Slideshow
+====================================================================================================
+*/
+
+/* Slide Caption */
+.slide-caption h2,
+.slide-caption h2.link a { background-color: #cd503c; }
+.slide-caption h2.link a:hover { background-color: #198caf; }
+.slide-caption p { background-color: #198caf; }
+
+/*
+====================================================================================================
+Posts
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Common
+----------------------------------------------------------------------------------------------------
+*/
+
+.post .post-body,
+.post .post-image-container { background-color: #282d32; }
+.post-share li a { background-color: #198caf; }
+.post-buy.button a { color: #ffffff; border-color: #ffffff; }
+.post-buy.button a:hover { background-color: #cd503c; border-color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Blog & Event Grid Home
+----------------------------------------------------------------------------------------------------
+*/
+
+.grid-post-home { background-color: #198caf; }
+.grid-post-home a:hover { background-color: #cd503c; }
+.grid-event-home { background-color: #282d32; }
+
+.grid-post-home .post a:hover .post-title { border-color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Blog Grid
+----------------------------------------------------------------------------------------------------
+*/
+
+.grid-blog .tile.format-audio .corner:before,
+.grid-blog .tile.format-gallery .corner:before,
+.grid-blog .tile.format-video .corner:before,
+.grid-blog .tile.format-quote .corner:before { border-right-color: #00050a; }
+.grid-blog .tile.format-audio .post-corner:before,
+.grid-blog .tile.format-gallery .post-corner:before,
+.grid-blog .tile.format-video .post-corner:before,
+.grid-blog .tile.format-quote .post-corner:before { border-top-color: #282d32; }
+.grid-blog .format-quote blockquote { color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Event Grid
+----------------------------------------------------------------------------------------------------
+*/
+
+.grid-event-past .tile .tile-block { background-color: #282d32; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Event List
+----------------------------------------------------------------------------------------------------
+*/
+
+.list-event .inner { background-color: #282d32; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Archive Grid
+----------------------------------------------------------------------------------------------------
+*/
+
+.grid-archives a { color: #198caf; }
+.grid-archives a:hover { color: #ffffff; }
+
+/*
+====================================================================================================
+Singles
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Common
+----------------------------------------------------------------------------------------------------
+*/
+
+.post-meta .post-comments a,
+.post-meta .post-categories a { color: #198caf; }
+.post-meta .post-comments a:hover,
+.post-meta .post-categories a:hover { color: #ffffff; }
+.post-meta-line ul.post-categories a { background-color: #cd503c; }
+.post-meta-line ul.post-categories a:hover { background-color: #198caf; }
+.post-meta-table .inner { background-color: #282d32; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Single Blog
+----------------------------------------------------------------------------------------------------
+*/
+
+.single-blog .format-quote blockquote { color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Single Event
+----------------------------------------------------------------------------------------------------
+*/
+
+.single-event .post-meta .button a { background-color: #cd503c; }
+.single-event .post-meta .button a:hover { background-color: #198caf; }
+.single-event .post-facebook a:hover { background-color: #cd503c !important; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Single Album
+----------------------------------------------------------------------------------------------------
+*/
+
+.single-album .post-meta .button a { background-color: #cd503c; }
+.single-album .post-meta .button a:hover { background-color: #198caf; }
+
+/*
+====================================================================================================
+Pagination
+====================================================================================================
+*/
+
+.pagination a,
+.pagination-post a { background-color: #198caf; }
+.pagination a:hover,
+.pagination-post a:hover,
+.pagination span.current { background-color: #cd503c; }
+
+/*
+====================================================================================================
+Widgets
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Areas
+----------------------------------------------------------------------------------------------------
+*/
+
+.wa-footer-top { color: #14191e; background-color: #ffffff; }
+.wa-footer-bottom { color: #14191e; background-color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Widget Tweets & Widget Recent Tweet [Custom]
+----------------------------------------------------------------------------------------------------
+*/
+	
+.widget_tweets li a,
+.widget_recent_tweet li a { color: #198caf; }
+.widget_tweets li a:hover,
+.widget_recent_tweet li a:hover { color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Widget Recent Events & Posts & Albums & Videos & Entries [Custom + WordPress]
+----------------------------------------------------------------------------------------------------
+*/
+
+.widget_recent_posts a,
+.widget_recent_events a,
+.widget_recent_albums a,
+.widget_recent_videos a,
+.widget_recent_entries a,
+.widget_recent_comments a { color: #198caf; border-color: #198caf; }
+.widget_recent_posts a:hover,
+.widget_recent_events a:hover,
+.widget_recent_albums a:hover,
+.widget_recent_videos a:hover,
+.widget_recent_entries a:hover,
+.widget_recent_comments a:hover { color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Widget Pages, Subpages, Navigation [WordPress]
+----------------------------------------------------------------------------------------------------
+*/
+
+.widget_pages li a,
+.widget_subpages li a,
+.widget_nav_menu li a { background-color: #198caf; }
+.widget_pages li a:hover,
+.widget_subpages li a:hover,
+.widget_nav_menu li a:hover { background-color: #cd503c; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Widget Archive, Categories [WordPress]
+----------------------------------------------------------------------------------------------------
+*/
+
+.widget_archive li,
+.widget_categories li { color: #ffffff; background-color: #198caf; }
+.widget_archive li a,
+.widget_categories li a { color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Widget Tag Cloud & Tags
+----------------------------------------------------------------------------------------------------
+*/
+
+.post-tags a,
+.widget_tag_cloud a { background-color: #198caf; }
+.post-tags a:hover,
+.widget_tag_cloud a:hover { background-color: #cd503c; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Widget Links [WordPress]
+----------------------------------------------------------------------------------------------------
+*/
+
+.widget_links li a { color: #198caf; }
+.widget_links li a:hover { color: #ffffff; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Widget qTranslate [qTranslate]
+----------------------------------------------------------------------------------------------------
+*/
+
+.widget_qtranslate li a { background-color: #198caf; }
+.widget_qtranslate li a:hover { background-color: #cd503c; }
+
+/*
+====================================================================================================
+Components
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Slideshow
+----------------------------------------------------------------------------------------------------
+*/
+
+.gp-theme .rsArrowIcn { background-color: #cd503c; }
+.gp-theme .rsArrowIcn:hover { background-color: #198caf; }
+.gp-theme .rsPlayBtn .rsPlayBtnIcon { background-color: #282d32; }
+.gp-theme .rsPlayBtn:hover .rsPlayBtnIcon { background-color: #cd503c; }
+.gp-theme .rsCloseVideoIcn { background-color: #cd503c; }
+.gp-theme .rsCloseVideoIcn:hover { background-color: #198caf; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Player
+----------------------------------------------------------------------------------------------------
+*/
+
+.player a:hover { background-color: #198caf !important; }
+.player-progress { background-color: #282d32; }
+.player-progress .player-seek-bar { background-color: #282d32; }
+.player-progress .player-play-bar { background-color: #cd503c; }
+.player-controls { background-color: #282d32; }
+.player-controls .player-volume-value { background-color: #ffffff; }
+.player-controls .player-volume-container { background-color: #00050a; }
+.player-playlist ul li a { background-color: #282d32; }
+.player-playlist ul li a:hover { background-color: #cd503c !important; }
+.player-playlist ul li.jp-playlist-current a { background-color: #198caf !important; }
+.grid-blog .post-audio { background-color: #00050a; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Lightbox
+----------------------------------------------------------------------------------------------------
+*/
+
+.lightbox-arrow-left,
+.lightbox-arrow-right { background-color: #cd503c; }
+.lightbox-arrow-left:hover,
+.lightbox-arrow-right:hover { background-color: #198caf; }
+.lightbox-close { background-color: #cd503c; }
+.lightbox-close:hover { background-color: #198caf; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Tabs
+----------------------------------------------------------------------------------------------------
+*/
+
+.ui-tabs .ui-tabs-nav li.ui-state-default a { color: #ffffff; background-color: #198caf; }
+.ui-tabs .ui-tabs-nav li.ui-state-default a:hover { color: #ffffff; background-color: #cd503c; }
+.ui-tabs .ui-tabs-nav li.ui-state-active a,
+.ui-tabs .ui-tabs-nav li.ui-state-active a:hover { color: #198caf; background-color: #ffffff; }
+.ui-tabs .ui-tabs-panel { background-color: #ffffff; color: #282d32; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Back to Top Button
+----------------------------------------------------------------------------------------------------
+*/
+
+.back-to-top { background-color: #cd503c; }
+.back-to-top:hover { background-color: #198caf; }

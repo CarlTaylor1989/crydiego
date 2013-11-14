@@ -1,0 +1,51 @@
+/*
+====================================================================================================
+CSS Name:		Font Stylesheet
+Version: 		1.0.0
+Author: 		Pavel Richter / Grand Pixels
+Author URI: 	http://grandpixels.com
+====================================================================================================
+
+====================================================================================================
+Typography
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+WebServeroff Regular [Local]
+----------------------------------------------------------------------------------------------------
+*/
+
+@font-face {
+	font-family: 'WebServeroffRegular';
+	src: url('../fonts/web-serveroff/Web-Serveroff.eot');
+	src: url('../fonts/web-serveroff/Web-Serveroff.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/web-serveroff/Web-Serveroff.woff') format('woff'),
+		 url('../fonts/web-serveroff/Web-Serveroff.ttf') format('truetype'),
+		 url('../fonts/web-serveroff/Web-Serveroff.svg#WebServeroffRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+WebServeroff Regular [Local]
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 { font-family: "WebServeroffRegular", Helvetica, Arial, sans-serif; }
+
+/* Blockquotes */
+blockquote { font-family: "WebServeroffRegular", Helvetica, Arial, sans-serif; }
+
+/* Forms */
+label { font-family: "WebServeroffRegular", Helvetica, Arial, sans-serif; }
+
+/* Widgets */
+.widget_recent_tweet .tweet_text, .widget_pages li a, .widget_subpages li a, .widget_nav_menu li a, .widget_archive li, .widget_categories li, .widget_archive li li, .widget_categories li li { font-family: "WebServeroffRegular", Helvetica, Arial, sans-serif; }
+
+/* Navigation */
+nav.navigation, nav.navigation-mobile li { font-family: "WebServeroffRegular", Helvetica, Arial, sans-serif; }
+
+/* Slide Caption */
+.slide-caption,
+.slide-caption p { font-family: "WebServeroffRegular", Helvetica, Arial, sans-serif; }

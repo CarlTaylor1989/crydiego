@@ -1,0 +1,29 @@
+==================================================
+MUSE Changelog
+==================================================
+----------------------------------------------
+Version 1.0.3 (26 March 2013)
+----------------------------------------------
+style.css
+template-contact.php
+----------------------------------------------
+Version 1.0.2 (25 March 2013)
+----------------------------------------------
+backend/inits/init-backend-functions.php
+backend/shortcodes/shortcodes.php
+languages/default.mo
+languages/default.po
+functions.php
+----------------------------------------------
+Version 1.0.1 (21 March 2013)
+----------------------------------------------
+content-audio.php
+content-quote.php
+content-standard.php
+content-video.php
+functions.php
+header.php
+----------------------------------------------
+Version 1.0.0 (13 March 2013)
+----------------------------------------------
+Initial Release

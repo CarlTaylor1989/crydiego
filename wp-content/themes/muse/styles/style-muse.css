@@ -1,0 +1,421 @@
+/*
+====================================================================================================
+CSS Name:		Theme Stylesheet
+URI: 			http://themes.grandpixels.com/muse
+Description: 	Theme stylesheet that defines whole design style.
+Version: 		1.0.0
+Author: 		Pavel Richter / Grand Pixels
+Author URI: 	http://grandpixels.com
+====================================================================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+THIS FILE CONTAINS ALL THE COLORS AND IMAGES DEFINITIONS OF THE THEME.
+THIS IS A PLACE FOR YOUR CHANGES.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+====================================================================================================
+Contents
+====================================================================================================
+01.				CSS Common
+02.				Body
+03.				Typography
+04.				Forms
+----------------------------------------------------------------------------------------------------
+05.				Header
+06.				Navigation
+07.				Toolbar
+08.				Socials
+09.				Posts
+10.				Singles
+----------------------------------------------------------------------------------------------------
+11.				Shortcodes
+12.				Overlays
+13.				Components
+====================================================================================================
+====================================================================================================
+
+====================================================================================================
+CSS Common
+====================================================================================================
+*/
+
+/* Selection */
+::selection { color: #ffffff; }
+::-moz-selection { color: #ffffff; }
+
+/* Code */
+pre { color: #333333; background-color: #ffffff; }
+
+/* Other */
+ins { border: 2px solid #ffff00; }
+
+/*
+====================================================================================================
+Body
+====================================================================================================
+*/
+
+body { font: 0.8125em 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+/*
+====================================================================================================
+Typography
+====================================================================================================
+*/
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-weight: normal; }
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a { text-decoration: none; }
+
+/* Code */
+pre { font: 13px "Courier 10 Pitch", Courier, monospace; }
+code, kbd, samp, var { font: 13px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+
+/*
+====================================================================================================
+Forms
+====================================================================================================
+*/
+
+/* Fields */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="datetime"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="button"],
+input[type="submit"],
+textarea,
+select {
+	color: #464b50;
+	background-color: #ffffff;
+	border: 2px solid #e0e0e0;	
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+textarea:focus,
+select:focus {
+	border-color: #d0d0d0;
+}
+
+/* Required */
+.required-star { color: #e6192d; }
+
+/* Error */
+input.error,
+textarea.error,
+input.error:focus,
+textarea.error:focus { border: 2px solid #e6192d; }
+label.error { color: #ffffff; background-color: #e6192d; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Search
+----------------------------------------------------------------------------------------------------
+*/
+
+input.input-search[type="text"] {
+	background-image: url("../images/icons/search.png");
+}
+
+/*
+====================================================================================================
+Header
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Logo
+----------------------------------------------------------------------------------------------------
+*/
+
+header.header .logo-default a { background-image: url("../images/logo.png"); }
+
+/*
+====================================================================================================
+Navigation
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Navigation - Primary
+----------------------------------------------------------------------------------------------------
+*/
+
+/* 1st Level */
+nav.navigation { font-weight: normal; text-transform: uppercase; }
+nav.navigation li a { text-decoration: none; }
+
+/* 2nd Level */
+nav.navigation li .children { -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.25); -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.25); box-shadow: 2px 2px 4px rgba(0,0,0,0.25); }
+nav.navigation li li a { border-bottom: 1px solid rgba(0,0,0,0.1); }
+nav.navigation li li:last-child a { border-bottom: 1px solid rgba(0,0,0,0); }
+
+/* 3rd Level */
+nav.navigation li li li a,
+nav.navigation li li:hover li a,
+nav.navigation li:hover li:hover li a {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	border-left: 1px solid rgba(0,0,0,0.1);
+}
+nav.navigation li li li:last-child a { border-bottom: 1px solid rgba(0,0,0,0); }
+
+/*
+----------------------------------------------------------------------------------------------------
+Navigation - Mobile
+----------------------------------------------------------------------------------------------------
+*/
+
+.navigation-mobile-button a {
+	background-image: url("../images/icons/navigation.png");
+}
+
+nav.navigation-mobile li a { border-top: 1px solid rgba(0,0,0,0.1); }
+nav.navigation-mobile li li:first-child a { border-top: 1px solid rgba(0,0,0,0.1); }
+
+/*
+====================================================================================================
+Toolbar
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Search - Modal
+----------------------------------------------------------------------------------------------------
+*/
+
+.modal-search { background-image: url("../images/bg-overlay-00050a-90.png"); }
+.modal-search-close { background-image: url('../images/icons/controls.png'); }
+.modal-search-button {	background-image: url("../images/icons/search-light.png"); }
+
+/*
+====================================================================================================
+Socials
+====================================================================================================
+*/
+
+.socials li a {	color: #ffffff; }
+.socials li a:hover { color: #ffffff; }
+
+.socials li.social-twitter a { background-image: url("../images/icons/social/twitter.png"); }
+.socials li.social-twitter a:hover { background-color: #00bef6; }
+
+.socials li.social-facebook a { background-image: url("../images/icons/social/facebook.png"); }
+.socials li.social-facebook a:hover { background-color: #3b5998; }
+
+.socials li.social-googleplus a { background-image: url("../images/icons/social/googleplus.png"); }
+.socials li.social-googleplus a:hover { background-color: #dd4b39; }
+
+.socials li.social-amazon a { background-image: url("../images/icons/social/amazon.png"); }
+.socials li.social-amazon a:hover { background-color: #ff9900; }
+
+.socials li.social-youtube a { background-image: url("../images/icons/social/youtube.png"); }
+.socials li.social-youtube a:hover { background-color: #af2b26; }
+
+.socials li.social-vimeo a { background-image: url("../images/icons/social/vimeo.png"); }
+.socials li.social-vimeo a:hover { background-color: #ff0084; }
+
+.socials li.social-itunes a { background-image: url("../images/icons/social/itunes.png"); }
+.socials li.social-itunes a:hover { background-color: #1d88d9; }
+
+.socials li.social-soundcloud a { background-image: url("../images/icons/social/soundcloud.png"); }
+.socials li.social-soundcloud a:hover { background-color: #fe4a00; }
+
+.socials li.social-beatport a { background-image: url("../images/icons/social/beatport.png"); }
+.socials li.social-beatport a:hover { background-color: #a8e00f; }
+
+.socials li.social-mixcloud a { background-image: url("../images/icons/social/mixcloud.png"); }
+.socials li.social-mixcloud a:hover { background-color: #63878b; }
+
+.socials li.social-purevolume a { background-image: url("../images/icons/social/purevolume.png"); }
+.socials li.social-purevolume a:hover { background-color: #008ee8; }
+
+.socials li.social-spotify a { background-image: url("../images/icons/social/spotify.png"); }
+.socials li.social-spotify a:hover { background-color: #7ea613; }
+
+.socials li.social-lastfm a { background-image: url("../images/icons/social/lastfm.png"); }
+.socials li.social-lastfm a:hover { background-color: #c40d17; }
+
+.socials li.social-myspace a { background-image: url("../images/icons/social/myspace.png"); }
+.socials li.social-myspace a:hover { background-color: #0094e0; }
+
+.socials li.social-grooveshark a { background-image: url("../images/icons/social/grooveshark.png"); }
+.socials li.social-grooveshark a:hover { background-color: #f77f00; }
+
+.socials li.social-flickr a { background-image: url("../images/icons/social/flickr.png"); }
+.socials li.social-flickr a:hover { background-color: #ff0084; }
+
+.socials li.social-pinterest a { background-image: url("../images/icons/social/pinterest.png"); }
+.socials li.social-pinterest a:hover { background-color: #cb2027; }
+
+/*
+====================================================================================================
+Posts
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Common
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Post Share */
+.post-share li a {
+	color: #ffffff;
+}
+.post-share li a:hover { color: #ffffff; }
+
+.post-share li.social-twitter a { background-image: url("../images/icons/social/twitter.png"); }
+.post-share li.social-twitter a:hover { background-color: #00bef6; }
+
+.post-share li.social-facebook a { background-image: url("../images/icons/social/facebook.png"); }
+.post-share li.social-facebook a:hover { background-color: #3b5998; }
+
+.post-share li.social-googleplus a { background-image: url("../images/icons/social/googleplus.png"); }
+.post-share li.social-googleplus a:hover { background-color: #dd4b39; }
+
+.post-share li.social-pinterest a { background-image: url("../images/icons/social/pinterest.png"); }
+.post-share li.social-pinterest a:hover { background-color: #cb2027; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Blog & Event Grid Home
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Post */
+.grid-post-home .post { background-image: url("../images/lines/20-white-60.png"); }
+
+/*
+----------------------------------------------------------------------------------------------------
+Blog Grid
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Post Corner */
+.grid-blog .tile.format-audio .post-corner { background-image: url("../images/icons/format/audio.png"); }
+.grid-blog .tile.format-gallery .post-corner { background-image: url("../images/icons/format/gallery.png"); }
+.grid-blog .tile.format-video .post-corner { background-image: url("../images/icons/format/video.png"); }
+.grid-blog .tile.format-quote .post-corner { background-image: url("../images/icons/format/quote.png"); }
+
+/*
+----------------------------------------------------------------------------------------------------
+Album Grid
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Vinyl */
+.grid-album .post-image .vinyl-small {
+	background-image: url("../images/vinyl-small.png");
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+Search Grid
+----------------------------------------------------------------------------------------------------
+*/
+
+.grid-search .highlight-title,
+.grid-search .highlight-excerpt { border-color: #ffff00; }
+
+/*
+====================================================================================================
+Singles
+====================================================================================================
+*/
+
+/*
+----------------------------------------------------------------------------------------------------
+Single Event
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Post Meta */
+.single-event .post-facebook a {
+	background-image: url("../images/icons/social/facebook.png");
+	background-color: #3b5998 !important;
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+Single Album
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Vinyl */
+.single-album .post-image .vinyl-big {
+	background-image: url("../images/vinyl-big.png");
+}
+
+/*
+====================================================================================================
+Widgets
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Widget Recent Albums
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Vinyl */
+.widget_recent_albums .post-image .vinyl-small {
+	background-image: url("../images/vinyl-small.png");
+}
+
+/*
+====================================================================================================
+Shortcodes
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Alerts
+----------------------------------------------------------------------------------------------------
+*/
+
+.alert .close {
+	color: #ffffff;
+}
+
+/* Error */
+.alert.error { color: #ffffff; background-color: #e6192d; }
+
+/* Success */
+.alert.success { color: #ffffff; background-color: #7db432; }
+
+/*
+====================================================================================================
+Overlays
+====================================================================================================
+*/
+
+.overlay span.overlay-block { background-image: url("../images/bg-overlay-00050a-50.png"); }
+.overlay span.overlay-icon { background-image: url("../images/icons/overlay-plus.png"); }
+.overlay.overlay-video span.overlay-icon { background-image: url("../images/icons/overlay-play.png"); }
+
+/*
+====================================================================================================
+Components
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Back to Top Button
+----------------------------------------------------------------------------------------------------
+*/
+
+.back-to-top { background-image: url("../images/icons/controls.png"); }

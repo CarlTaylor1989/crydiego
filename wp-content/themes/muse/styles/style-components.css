@@ -1,0 +1,633 @@
+/*
+====================================================================================================
+CSS Name:		Components Stylesheet
+URI: 			http://themes.grandpixels.com/muse
+Description: 	Theme stylesheet that defines whole design style.
+Version: 		1.0.0
+Author: 		Pavel Richter / Grand Pixels
+Author URI: 	http://grandpixels.com
+====================================================================================================
+
+====================================================================================================
+Contents
+====================================================================================================
+01.				Slideshow
+02.				Player
+03.				Lightbox
+04.				Tabs
+05.				Contact Form reCaptcha
+06.				Back to Top Button
+====================================================================================================
+====================================================================================================
+
+====================================================================================================
+Components
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+Slideshow
+----------------------------------------------------------------------------------------------------
+*/
+
+.rsWebkit3d .rsSlide,
+.rsWebkit3d .rsContainer,
+.rsWebkit3d .rsThumbs,
+.rsWebkit3d .rsPreloader,
+.rsWebkit3d img,
+.rsWebkit3d .rsOverflow,
+.rsWebkit3d .rsBtnCenterer,
+.rsWebkit3d .rsAbsoluteEl {
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateZ(0); 
+}
+.rsFade.rsWebkit3d .rsSlide,
+.rsFade.rsWebkit3d img,
+.rsFade.rsWebkit3d .rsContainer {
+	-webkit-transform: none;
+}
+.rsOverflow {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.rsContainer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.rsArrow,
+.rsThumbsArrow {
+	cursor: pointer;
+}
+
+.rsArrow,
+.rsNav,
+.rsThumbsArrow {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear;
+}
+.rsHidden {
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+	-moz-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+	-o-transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+	transition: visibility 0s linear 0.3s, opacity 0.3s linear;
+}
+
+
+.rsGCaption {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+/* Fullscreen options, very important ^^ */
+.royalSlider.rsFullscreen {
+	position: fixed !important;
+	height: auto !important;
+	width: auto !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	z-index: 2147483647 !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: 0 !important;
+	right: 0 !important;
+}
+
+.royalSlider .rsSlide.rsFakePreloader {
+	opacity: 1 !important;
+	-webkit-transition: 0s;
+	-moz-transition: 0s;
+	-o-transition:  0s;
+	transition:  0s;
+	display: none;
+}
+
+.rsSlide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: block;
+	overflow: hidden;
+	
+	height: 100%;
+	width: 100%;
+}
+
+.royalSlider.rsAutoHeight,
+.rsAutoHeight .rsSlide {
+	height: auto;
+}
+
+.rsContent {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.rsPreloader {
+	position:absolute;
+	z-index: 0;	
+}
+
+.rsNav {
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.rsNavItem {
+	-webkit-tap-highlight-color: rgba(0,0,0,0.25);
+}
+
+.rsThumbs {
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	z-index: 22;
+}
+.rsTabs {
+	float: left;
+}
+.rsTabs,
+.rsThumbs {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.rsVideoContainer {
+	width: auto;
+	height: auto;
+	line-height: 0;
+	position: relative;
+	
+}
+.rsVideoFrameHolder {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #141414;
+	
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-khtml-opacity: 0;
+	-moz-opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;
+}
+.rsVideoFrameHolder.rsVideoActive {
+	opacity: 1;
+}
+.rsVideoContainer iframe,
+.rsVideoContainer video,
+.rsVideoContainer embed,
+.rsVideoContainer .rsVideoObj {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+/* ios controls over video bug, shifting video */
+.rsVideoContainer.rsIOSVideo iframe,
+.rsVideoContainer.rsIOSVideo video,
+.rsVideoContainer.rsIOSVideo embed {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 44px;
+}
+
+.rsABlock {
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 15;
+	-webkit-backface-visibility: hidden;
+}
+
+.grab-cursor {
+	cursor: url("../images/icons/grab.png") 8 8, move; 
+}
+
+.grabbing-cursor{ 
+	cursor: url("../images/icons/grabbing.png") 8 8, move;
+}
+
+.rsNoDrag {
+	cursor: auto;
+}
+
+.rsLink {
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;	
+	z-index: 20;
+	background: url("../images/blank.gif");
+	-webkit-backface-visibility: hidden;
+
+}
+
+/*
+--------------------------------------------------
+Slideshow Theme
+--------------------------------------------------
+*/
+
+/* Arrows */
+.gp-theme .rsArrow { position: absolute; display: block; height: 60px; width: 60px; cursor: pointer; z-index: 21; }
+.gp-theme .rsArrowLeft { top: 250px; right: 60px; }
+.gp-theme .rsArrowRight { top: 250px; right: 0; }
+.gp-theme .rsArrowIcn {
+	width: 60px;
+	height: 60px;
+	position: absolute;	
+	cursor: pointer;
+	background-image: url("../images/icons/controls.png");
+	
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.gp-theme .rsArrowLeft .rsArrowIcn { background-position: left top; background-repeat: no-repeat; }
+.gp-theme .rsArrowRight .rsArrowIcn { background-position: left -60px; background-repeat: no-repeat; }
+.gp-theme .rsArrowDisabled .rsArrowIcn { opacity: 0.4; }
+
+/* Play/Close Video Buttons  */
+.gp-theme .rsPlayBtn {
+	width: 100px;
+	height: 100px;
+	margin-left: -50px;
+	margin-top: -50px;
+	cursor: pointer;
+	background-color: transparent;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.3);
+}
+.gp-theme .rsPlayBtn .rsPlayBtnIcon {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	background-image: url("../images/icons/controls.png");
+	background-position: left -240px;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.gp-theme .rsBtnCenterer { position: absolute; left: 50%; top: 50%; }
+
+.gp-theme .rsCloseVideoBtn { position: absolute; right: 0; top: 20px; width: 60px; height: 60px; cursor: pointer; z-index: 99999; }
+.gp-theme .rsCloseVideoIcn { 
+	margin: 0;
+	width: 60px;
+	height: 60px;
+	background-image: url('../images/icons/controls.png');
+	background-position: left -180px;
+	background-repeat: no-repeat;
+	
+	-webkit-transition: background-color 0.3s linear;
+	-moz-transition: background-color 0.3s linear;
+	-ms-transition: background-color 0.3s linear;
+	-o-transition: background-color 0.3s linear;
+	transition: background-color 0.3s linear;
+}
+
+/* Preloader */
+.gp-theme .rsPreloader {
+	width: 20px;
+	height: 20px;
+	left: 50%;
+	top: 50%;
+	margin-left: -10px;
+	margin-top: -10px;
+	background-image: url("../images/loading.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+Player
+----------------------------------------------------------------------------------------------------
+*/
+
+/* Player Containers */
+.player { display: block; }
+.player-container { display: block; }
+
+/* Player Links */
+.player a {
+	-webkit-transition: background-color 0.3s linear;
+	-moz-transition: background-color 0.3s linear;
+	-ms-transition: background-color 0.3s linear;
+	-o-transition: background-color 0.3s linear;
+	transition: background-color 0.3s linear;
+}
+
+/* Player Progress */
+.player-progress { float: left; width: 100%; height: 10px; z-index: 99; }
+.player-progress .player-seek-bar { float: left; width: 0; height: 10px; cursor: pointer; }
+.player-progress .player-play-bar { width: 0; height: 10px; }
+
+/* Player Controls */
+.player-controls { float: left; width: 100%; height: 40px; margin-top: 2px; position: relative; z-index: 100; }
+
+.player-controls ul { list-style-type: none; padding: 0; margin: 0; }
+.player-controls ul li { display: inline; }
+.player-controls ul li a { position: absolute; overflow: hidden; text-indent: -9999px; }
+
+.player-controls ul li a.player-play,
+.player-controls ul li a.player-pause,
+.player-controls ul li a.player-stop,
+.player-controls ul li a.player-mute,
+.player-controls ul li a.player-unmute { width: 40px; height: 40px; z-index: 99; outline: none; }
+
+.player-controls ul li a.player-play,
+.player-controls ul li a.player-pause { top: 0; left: 0; }
+.player-controls ul li a.player-stop { top: 0; left: 40px; }
+.player-controls ul li a.player-mute,
+.player-controls ul li a.player-unmute { bottom: 0; right: 100px; }
+
+.player-controls ul li a.player-play { background: url("../images/player/player-sprite.png") left top no-repeat; }
+.player-controls ul li a.player-play:hover { background-position: right top; }
+.player-controls ul li a.player-pause { background: url("../images/player/player-sprite.png") left -40px no-repeat; display: none; }
+.player-controls ul li a.player-stop { background: url("../images/player/player-sprite.png") left -80px no-repeat; }
+.player-controls ul li a.player-mute { background: url("../images/player/player-sprite.png") left -120px no-repeat; }
+.player-controls ul li a.player-unmute { background: url("../images/player/player-sprite.png") left -160px no-repeat; }
+.player-controls ul li a.player-unmute:hover { background-position: right -160px; }
+
+.iphone .player-controls ul li a.player-mute,
+.iphone .player-controls ul li a.player-unmute { display: none; }
+
+/* Player Time */
+.player-controls .player-time {
+	position: absolute;
+	right: 160px;
+	padding: 12px 0;
+	font-size: 11px;
+	
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-khtml-opacity: 0.5;
+	-moz-opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+.iphone .player-controls .player-time { right: 20px; }
+
+/* Player Volume */
+.player-controls .player-volume { position: absolute; top: 0; right: 0; width: 80px; height: 40px; margin-right: 12px; }
+.player-controls .player-volume-container { position: absolute; top: 12px; right: 0; width: 76px; height: 14px; padding: 2px; overflow: hidden; cursor: pointer; }
+.player-controls .player-volume-container .player-volume-value { width: 0px; height: 10px; }
+.iphone .player-controls .player-volume { display: none; }
+
+/* Player Playlist */
+.player-playlist ul { float: left; width: 100%; }
+.player-playlist ul li { float: left; width: 100%; list-style-type: none; margin-top: 2px; }
+.player-playlist ul li a { display: block; width: 100%; padding: .75em 1.5em; text-decoration: none; }
+.player-playlist ul li.jp-playlist-current a { background: url("../images/player/player-sprite.png") right bottom no-repeat; }
+
+.jp-no-solution { display: none; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Lightbox / touchTouch
+----------------------------------------------------------------------------------------------------
+*/
+
+.lightbox-overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 100000;
+	background: url("../images/bg-overlay-00050a-95.png") repeat;
+	overflow: hidden;
+	display: none;
+	-webkit-transition: opacity 0.3s linear;
+	-moz-transition: opacity 0.3s linear;
+	-o-transition: opacity 0.3s linear;
+	-ms-transition: opacity 0.3s linear;
+	transition: opacity 0.3s linear;
+}
+.lightbox-overlay.visible { opacity: 1; }
+.lightbox-slider {
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	white-space: nowrap;
+	position: absolute;
+	-webkit-transition: left 0.3s linear;
+	-moz-transition: left 0.3s linear;
+	-o-transition: left 0.3s linear;
+	-ms-transition: left 0.3s linear;
+	transition: left 0.3s linear;
+}
+.lightbox-slider .placeholder {
+	background: url("../images/loading.gif") center center no-repeat;
+	height: 100%;
+	line-height: 1px;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+.lightbox-slider .placeholder:before {
+	content: "";
+	display: inline-block;
+	height: 50%;
+	width: 1px;
+	margin-right: -1px;
+}
+.lightbox-slider .placeholder img {
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+.lightbox-slider.rightSpring {
+	-moz-animation: rightSpring 0.3s;
+	-webkit-animation: rightSpring 0.3s;
+}
+.lightbox-slider.leftSpring {
+	-moz-animation: leftSpring 0.3s;
+	-webkit-animation: leftSpring 0.3s;
+}
+
+/* Firefox Keyframe Animations */
+@-moz-keyframes rightSpring {
+	0% { margin-left: 0px; }
+	50% { margin-left: -30px; }
+	100% { margin-left: 0px; }
+}
+
+@-moz-keyframes leftSpring {
+	0% { margin-left: 0px; }
+	50% { margin-left: 30px; }
+	100% { margin-left: 0px; }
+}
+
+/* Safari and Chrome Keyframe Animations */
+@-webkit-keyframes rightSpring {
+	0% { margin-left: 0px; }
+	50% { margin-left: -30px; }
+	100% { margin-left: 0px; }
+}
+
+@-webkit-keyframes leftSpring {
+	0% { margin-left: 0px; }
+	50% { margin-left: 30px; }
+	100% { margin-left: 0px; }
+}
+
+/* Lightbox > Arrows */
+.lightbox-arrow-left,
+.lightbox-arrow-right {
+	position: absolute;
+	top: 50%;
+	width: 60px;
+	height: 60px;
+	margin-top: -30px;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	background-image: url("../images/icons/controls.png");
+	
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.lightbox-arrow-left { left: 0; background-position: left top; background-repeat: no-repeat; }
+.lightbox-arrow-right { right: 0; background-position: left -60px; background-repeat: no-repeat; }
+
+/* Lightbox > Close Button */
+.lightbox-close { 
+	position: absolute;
+	right: 0;
+	top: 20px;
+	margin: 0;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	z-index: 999;
+	background-image: url('../images/icons/controls.png');
+	background-position: left -180px;
+	background-repeat: no-repeat;
+}
+
+/*
+----------------------------------------------------------------------------------------------------
+Tabs
+----------------------------------------------------------------------------------------------------
+*/
+
+.ui-tabs { position: relative; display: table; width: 100%; zoom: 1; }
+.ui-tabs:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; }
+.ui-tabs .ui-tabs-nav {
+	display: block;
+	margin: 0;
+	padding: 2px 0 0;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-default {
+	float: left;
+	list-style: none;
+	margin: 0 1px 0 0;
+	padding: 0;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.ui-tabs .ui-tabs-nav li.ui-state-default a { 
+	display: block;
+	padding: 1em 1.5em;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.ui-tabs .ui-tabs-nav li.ui-state-active a { position: relative; border-bottom: 1px solid rgba(0,0,0,0); z-index: 99; cursor: text; }
+.ui-tabs .ui-tabs-panel {
+	display: block;
+	position: relative;
+	padding: 1.5em 1.5em 3em;
+}
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Contact Form reCaptcha
+----------------------------------------------------------------------------------------------------
+*/
+
+.input-captcha { display: block; clear: both !important; position: relative; margin-left: 0; }
+
+#recaptcha_area { float: left; width: 100% !important; }
+table#recaptcha_table td { width: 100% !important; }
+table#recaptcha_table td.recaptcha_image_cell { width: 32% !important; padding: 0 !important; }
+.recaptcha_input_area { margin: 0 !important; }
+.recaptcha_input_area input { width: 100% !important; padding: 1em 1.5em !important; }
+.recaptcha_theme_clean td { padding-left: 0 !important; }
+.recaptcha_theme_clean.recaptchatable { border: none !important; }
+.recaptcha_theme_clean #recaptcha_logo,
+.recaptcha_theme_clean #recaptcha_tagline { display: none !important; }
+.recaptcha_input_area { float: left !important; width: 100% !important; background: blue !important !important; }
+.recaptcha_theme_clean #recaptcha_response_field {
+	font-size: 13px !important;
+	margin: 1em 0 !important;
+	padding: 1em 1.5em !important;
+	border: 2px solid !important;
+	width: 100% !important;
+}
+.recaptcha_theme_clean.recaptchatable #recaptcha_image { border: none !important; }
+
+/* Error */
+.input-captcha.error .recaptcha_theme_clean #recaptcha_response_field  { border: 2px solid #e6192d !important; }
+.input-captcha label.error { position: absolute; bottom: 0; right: 0; }
+
+/*
+----------------------------------------------------------------------------------------------------
+Back to Top Button
+----------------------------------------------------------------------------------------------------
+*/
+
+.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	position: fixed !important;
+	bottom: 20px;
+	right: 0;
+	cursor: pointer;
+	z-index: 9999;
+	background-position: left -120px;
+	
+	-webkit-transition: background-color 0.3s linear, border-color 0.3s linear;
+	-moz-transition: background-color 0.3s linear, border-color 0.3s linear;
+	-o-transition: background-color 0.3s linear, border-color 0.3s linear;
+	-ms-transition: background-color 0.3s linear, border-color 0.3s linear;
+	transition: background-color 0.3s linear, border-color 0.3s linear;
+}

@@ -1,0 +1,252 @@
+/*
+====================================================================================================
+CSS Name:		Retina Stylesheet
+Version: 		1.0.0
+Author: 		Pavel Richter / Grand Pixels
+Author URI: 	http://grandpixels.com
+====================================================================================================
+
+====================================================================================================
+Retina
+====================================================================================================
+*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+	
+	/* Forms > Search */
+	input.input-search[type="text"] {
+		background-image: url("../images/icons/search@2x.png");
+		-webkit-background-size: 36px 36px;
+		-moz-background-size: 36px 36px;
+		-o-background-size: 36px 36px;
+		background-size: 36px 36px;
+	}
+	
+	/* Header > Logo */
+	header.header .logo-default a {
+		background-image: url("../images/logo@2x.png");
+		-webkit-background-size: 170px 80px;
+		-moz-background-size: 170px 80px;
+		-o-background-size: 170px 80px;
+		background-size: 170px 80px;
+	}
+	
+	/* Navigation > Navigation - Mobile */
+	.navigation-mobile-button a {
+		background-image: url("images/icons/../navigation@2x.png");
+		-webkit-background-size: 80px 160px;
+		-moz-background-size: 80px 160px;
+		-o-background-size: 80px 160px;
+		background-size: 80px 160px;
+	}
+	
+	/* Toolbar > Search - Modal */
+	.modal-search-close {
+		background-image: url("../images/icons/controls@2x.png");
+		-webkit-background-size: 100px 340px;
+		-moz-background-size: 100px 340px;
+		-o-background-size: 100px 340px;
+		background-size: 100px 340px;
+	}
+	.modal-search-button {
+		background-image: url("../images/icons/search-light@2x.png");
+		-webkit-background-size: 36px 36px;
+		-moz-background-size: 36px 36px;
+		-o-background-size: 36px 36px;
+		background-size: 36px 36px;
+	}
+	
+	/* Socials */
+	.socials li a {
+		-webkit-background-size: 20px 16px;
+		-moz-background-size: 20px 16px;
+		-o-background-size: 20px 16px;
+		background-size: 20px 16px;
+	}
+	.socials li.social-twitter a { background-image: url("../images/icons/social/twitter@2x.png"); }
+	.socials li.social-facebook a { background-image: url("../images/icons/social/facebook@2x.png"); }
+	.socials li.social-googleplus a { background-image: url("../images/icons/social/googleplus@2x.png"); }
+	.socials li.social-amazon a { background-image: url("../images/icons/social/amazon@2x.png"); }
+	.socials li.social-youtube a { background-image: url("../images/icons/social/youtube@2x.png"); }
+	.socials li.social-vimeo a { background-image: url("../images/icons/social/vimeo@2x.png"); }
+	.socials li.social-itunes a { background-image: url("../images/icons/social/itunes@2x.png"); }
+	.socials li.social-soundcloud a { background-image: url("../images/icons/social/soundcloud@2x.png"); }
+	.socials li.social-beatport a { background-image: url("../images/icons/social/beatport@2x.png"); }
+	.socials li.social-mixcloud a { background-image: url("../images/icons/social/mixcloud@2x.png"); }
+	.socials li.social-purevolume a { background-image: url("../images/icons/social/purevolume@2x.png"); }
+	.socials li.social-spotify a { background-image: url("../images/icons/social/spotify@2x.png"); }
+	.socials li.social-lastfm a { background-image: url("../images/icons/social/lastfm@2x.png"); }
+	.socials li.social-myspace a { background-image: url("../images/icons/social/myspace@2x.png"); }
+	.socials li.social-grooveshark a { background-image: url("../images/icons/social/grooveshark@2x.png"); }
+	.socials li.social-flickr a { background-image: url("../images/icons/social/flickr@2x.png"); }
+	.socials li.social-pinterest a { background-image: url("../images/icons/social/pinterest@2x.png"); }
+	
+	/* Slideshow */
+	.gp-theme .rsArrowLeft .rsArrowIcn,
+	.gp-theme .rsArrowRight .rsArrowIcn,
+	.gp-theme .rsPlayBtn .rsPlayBtnIcon,
+	.gp-theme .rsCloseVideoIcn { 
+		background-image: url("../images/icons/controls@2x.png");
+		-webkit-background-size: 100px 280px;
+		-moz-background-size: 100px 280px;
+		-o-background-size: 100px 280px;
+		background-size: 100px 280px;
+	}
+	
+	.gp-theme .rsPreloader {
+		background-image: url("../images/icons/loading@2x.gif");
+		-webkit-background-size: 20px 20px;
+		-moz-background-size: 20px 20px;
+		-o-background-size: 20px 20px;
+		background-size: 20px 20px;
+	}
+
+	/* Posts > Blog & Event Grid Home */
+	.grid-post-home .post {
+		background-image: url("../images/lines/20-white-60@2x.png");
+		-webkit-background-size: 1px 60px;
+		-moz-background-size: 1px 60px;
+		-o-background-size: 1px 60px;
+		background-size: 1px 60px;
+	}
+	
+	/* Posts > Common */
+	.post-share li a {
+		-webkit-background-size: 20px 16px;
+		-moz-background-size: 20px 16px;
+		-o-background-size: 20px 16px;
+		background-size: 20px 16px;	
+	}
+	.post-share li.social-twitter a { background-image: url("../images/icons/social/twitter@2x.png"); }
+	.post-share li.social-facebook a { background-image: url("../images/icons/social/facebook@2x.png"); }
+	.post-share li.social-googleplus a { background-image: url("../images/icons/social/googleplus@2x.png"); }
+	.post-share li.social-pinterest a { background-image: url("../images/icons/social/pinterest@2x.png"); }
+	
+	/* Posts > Blog Grid */
+	.grid-blog .tile .post-corner {
+		-webkit-background-size: 50px 50px;
+		-moz-background-size: 50px 50px;
+		-o-background-size: 50px 50px;
+		background-size: 50px 50px;	
+	}
+	.grid-blog .tile.format-audio .post-corner { background-image: url("../images/icons/format/audio@2x.png"); }
+	.grid-blog .tile.format-gallery .post-corner { background-image: url("../images/icons/format/gallery@2x.png"); }
+	.grid-blog .tile.format-video .post-corner { background-image: url("../images/icons/format/video@2x.png"); }
+	.grid-blog .tile.format-quote .post-corner { background-image: url("../images/icons/format/quote@2x.png"); }
+	
+	/* Posts > Album Grid */
+	.grid-album .post-image .vinyl-small {
+		background-image: url("../images/vinyl-small@2x.png");
+	}
+	
+	/* Singles > Single Event */
+	.single-event .post-facebook a {
+		-webkit-background-size: 20px 16px;
+		-moz-background-size: 20px 16px;
+		-o-background-size: 20px 16px;
+		background-size: 20px 16px;	
+	}
+	.single-event .post-facebook a {
+		background-image: url("../images/icons/social/facebook@2x.png");
+	}
+	
+	/* Singles > Single Album */
+	.single-album .post-image .vinyl-big {
+		background-image: url("../images/vinyl-big@2x.png");
+	}
+	
+	/*
+	----------------------------------------------------------------------------------------------------
+	Widgets
+	----------------------------------------------------------------------------------------------------
+	*/
+	
+	/* Widget Recent Albums */
+	
+	.widget_recent_albums .post-image .vinyl-small {
+		background-image: url("../images/vinyl-small@2x.png");
+	}
+	
+	/*
+	----------------------------------------------------------------------------------------------------
+	Components
+	----------------------------------------------------------------------------------------------------
+	*/
+	
+	/* Slideshow */
+	.gp-theme .rsArrowIcn,
+	.gp-theme .rsPlayBtn .rsPlayBtnIcon,
+	.gp-theme .rsCloseVideoIcn {
+		background-image: url("../images/icons/controls@2x.png");
+		-webkit-background-size: 100px 340px;
+		-moz-background-size: 100px 340px;
+		-o-background-size: 100px 340px;
+		background-size: 100px 340px;
+	}
+	
+	.gp-theme .rsPreloader {
+		background-image: url("../images/icons/loading@2x.gif");
+		-webkit-background-size: 20px 20px;
+		-moz-background-size: 20px 20px;
+		-o-background-size: 20px 20px;
+		background-size: 20px 20px;
+	}
+	
+	/* Player */
+	.player-controls ul li a.player-play,
+	.player-controls ul li a.player-pause,
+	.player-controls ul li a.player-stop,
+	.player-controls ul li a.player-mute,
+	.player-controls ul li a.player-unmute,
+	.player-playlist ul li.jp-playlist-current a {
+		background-image: url("../images/player/player-sprite@2x.png");
+		-webkit-background-size: 80px 240px;
+		-moz-background-size: 80px 240px;
+		-o-background-size: 80px 240px;
+		background-size: 80px 240px;
+	}
+	
+	/* Lightbox */
+	.lightbox-slider .placeholder {
+		background-image: url("../images/icons/loading@2x.gif");
+		-webkit-background-size: 20px 20px;
+		-moz-background-size: 20px 20px;
+		-o-background-size: 20px 20px;
+		background-size: 20px 20px;
+	}
+	.lightbox-arrow-left,
+	.lightbox-arrow-right,
+	.lightbox-close {
+		background-image: url("../images/icons/controls@2x.png");
+		-webkit-background-size: 100px 340px;
+		-moz-background-size: 100px 340px;
+		-o-background-size: 100px 340px;
+		background-size: 100px 340px;
+	}
+	
+	/* Overlay */
+	.overlay span.overlay-icon {
+		background-image: url("../images/icons/overlay-plus@2x.png");
+		-webkit-background-size: 48px 48px;
+		-moz-background-size: 48px 48px;
+		-o-background-size: 48px 48px;
+		background-size: 48px 48px;
+	}
+	.overlay.overlay-video span.overlay-icon { background-image: url("../images/icons/overlay-play@2x.png"); }
+	
+	/* Back to Top Button */
+	.back-to-top {
+		background-image: url("../images/icons/controls@2x.png");
+		-webkit-background-size: 100px 340px;
+		-moz-background-size: 100px 340px;
+		-o-background-size: 100px 340px;
+		background-size: 100px 340px;
+	}
+
+}

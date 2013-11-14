@@ -1,0 +1,3041 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Muse\n"
+"POT-Creation-Date: 2013-03-25 15:44+0100\n"
+"PO-Revision-Date: 2013-03-25 15:44+0100\n"
+"Last-Translator: Pavel <pavel@grandpixels.com>\n"
+"Language-Team: Grand Pixels <pavel@grandpixels.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:22
+msgid "Page not Found"
+msgstr ""
+
+#: ../404.php:34
+msgid "Sorry, this page was not found."
+msgstr ""
+
+#: ../404.php:36
+#, php-format
+msgid ""
+"You can try to return to the <a title=\"%1$s homepage\" href=\"%2$s\">%1$s "
+"homepage</a> and start fresh."
+msgstr ""
+
+#: ../archive.php:45
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: ../archive.php:52
+#, php-format
+msgid "All posts tagged %s"
+msgstr ""
+
+#: ../archive.php:59
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../archive.php:66 ../archive.php:73 ../archive.php:80
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:66
+msgid "F jS, Y"
+msgstr ""
+
+#: ../archive.php:73
+msgid "F, Y"
+msgstr ""
+
+#: ../archive.php:80
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:87
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: ../archive.php:94
+msgid "Blog archives"
+msgstr ""
+
+#: ../comments.php:26 ../content-audio.php:243 ../content-gallery.php:83
+#: ../content-quote.php:78 ../content-standard.php:113
+#: ../content-video.php:124 ../single-album.php:304 ../single-event.php:146
+#: ../single-gallery.php:63 ../single-video.php:58
+msgid "No comments"
+msgstr ""
+
+#: ../comments.php:27 ../content-audio.php:243 ../content-gallery.php:83
+#: ../content-quote.php:78 ../content-standard.php:113
+#: ../content-video.php:124 ../single-album.php:304 ../single-event.php:146
+#: ../single-gallery.php:63 ../single-video.php:58
+msgid "1 comment"
+msgstr ""
+
+#: ../comments.php:28 ../content-audio.php:243 ../content-gallery.php:83
+#: ../content-quote.php:78 ../content-standard.php:113
+#: ../content-video.php:124 ../single-album.php:304 ../single-event.php:146
+#: ../single-gallery.php:63 ../single-video.php:58
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../comments.php:56
+msgid "You can be the first one to leave a comment."
+msgstr ""
+
+#: ../comments.php:69
+msgid "&lsaquo; Previous"
+msgstr ""
+
+#: ../comments.php:70
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: ../comments.php:91
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:92
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:93
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:94
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:95
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:96
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:98
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../comments.php:101 ../template-contact.php:293
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:101 ../comments.php:102
+msgid "*"
+msgstr ""
+
+#: ../comments.php:102 ../template-contact.php:315
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:103
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:106
+msgid "Comment"
+msgstr ""
+
+#: ../content-audio.php:115 ../content-audio.php:116 ../content-gallery.php:49
+#: ../content-gallery.php:50 ../content-standard.php:42
+#: ../content-standard.php:43 ../content-video.php:50 ../content-video.php:51
+msgid "Read more ..."
+msgstr ""
+
+#: ../content-audio.php:207 ../content-gallery.php:134
+#: ../content-quote.php:116 ../content-standard.php:141
+#: ../content-video.php:152 ../template-archives.php:393
+msgid "Tags"
+msgstr ""
+
+#: ../content-audio.php:235 ../content-gallery.php:75 ../content-quote.php:70
+#: ../content-standard.php:105 ../content-video.php:116
+msgid "by "
+msgstr ""
+
+#: ../date-album.php:58 ../date-event.php:58
+#: ../backend/inits/init-backend-functions.php:108
+msgid "January"
+msgstr ""
+
+#: ../date-album.php:61 ../date-event.php:61
+#: ../backend/inits/init-backend-functions.php:109
+msgid "February"
+msgstr ""
+
+#: ../date-album.php:64 ../date-event.php:64
+#: ../backend/inits/init-backend-functions.php:110
+msgid "March"
+msgstr ""
+
+#: ../date-album.php:67 ../date-event.php:67
+#: ../backend/inits/init-backend-functions.php:111
+msgid "April"
+msgstr ""
+
+#: ../date-album.php:70 ../date-album.php:123 ../date-event.php:70
+#: ../date-event.php:123 ../backend/inits/init-backend-functions.php:112
+msgid "May"
+msgstr ""
+
+#: ../date-album.php:73 ../date-event.php:73
+#: ../backend/inits/init-backend-functions.php:113
+msgid "June"
+msgstr ""
+
+#: ../date-album.php:76 ../date-event.php:76
+#: ../backend/inits/init-backend-functions.php:114
+msgid "July"
+msgstr ""
+
+#: ../date-album.php:79 ../date-event.php:79
+#: ../backend/inits/init-backend-functions.php:115
+msgid "August"
+msgstr ""
+
+#: ../date-album.php:82 ../date-event.php:82
+#: ../backend/inits/init-backend-functions.php:116
+msgid "September"
+msgstr ""
+
+#: ../date-album.php:85 ../date-event.php:85
+#: ../backend/inits/init-backend-functions.php:117
+msgid "October"
+msgstr ""
+
+#: ../date-album.php:88 ../date-event.php:88
+#: ../backend/inits/init-backend-functions.php:118
+msgid "November"
+msgstr ""
+
+#: ../date-album.php:91 ../date-event.php:91
+#: ../backend/inits/init-backend-functions.php:119
+msgid "December"
+msgstr ""
+
+#: ../date-album.php:111 ../date-event.php:111
+msgid "Jan"
+msgstr ""
+
+#: ../date-album.php:114 ../date-event.php:114
+msgid "Feb"
+msgstr ""
+
+#: ../date-album.php:117 ../date-event.php:117
+msgid "Mar"
+msgstr ""
+
+#: ../date-album.php:120 ../date-event.php:120
+msgid "Apr"
+msgstr ""
+
+#: ../date-album.php:126 ../date-event.php:126
+msgid "Jun"
+msgstr ""
+
+#: ../date-album.php:129 ../date-event.php:129
+msgid "Jul"
+msgstr ""
+
+#: ../date-album.php:132 ../date-event.php:132
+msgid "Aug"
+msgstr ""
+
+#: ../date-album.php:135 ../date-event.php:135
+msgid "Sep"
+msgstr ""
+
+#: ../date-album.php:138 ../date-event.php:138
+msgid "Oct"
+msgstr ""
+
+#: ../date-album.php:141 ../date-event.php:141
+msgid "Nov"
+msgstr ""
+
+#: ../date-album.php:144 ../date-event.php:144
+msgid "Dec"
+msgstr ""
+
+#: ../footer.php:150
+msgid "Copyright &copy;"
+msgstr ""
+
+#: ../functions.php:374 ../template-contact.php:31
+msgid "Please fill your name."
+msgstr ""
+
+#: ../functions.php:376 ../template-contact.php:32
+msgid "Please fill your email address."
+msgstr ""
+
+#: ../functions.php:377 ../template-contact.php:33
+msgid "Please fill the valid email address."
+msgstr ""
+
+#: ../functions.php:379 ../template-contact.php:34
+msgid "Please fill your message."
+msgstr ""
+
+#: ../functions.php:380
+msgid "Please fill valid captcha."
+msgstr ""
+
+#: ../functions.php:574 ../functions.php:584 ../searchform.php:19
+#: ../socials.php:163 ../socials.php:164
+msgid "Search ..."
+msgstr ""
+
+#: ../functions.php:933
+msgid "year"
+msgstr ""
+
+#: ../functions.php:933
+msgid "years"
+msgstr ""
+
+#: ../functions.php:934
+msgid "month"
+msgstr ""
+
+#: ../functions.php:934
+msgid "months"
+msgstr ""
+
+#: ../functions.php:935
+msgid "week"
+msgstr ""
+
+#: ../functions.php:935
+msgid "weeks"
+msgstr ""
+
+#: ../functions.php:936
+msgid "day"
+msgstr ""
+
+#: ../functions.php:936
+msgid "days"
+msgstr ""
+
+#: ../functions.php:937
+msgid "hour"
+msgstr ""
+
+#: ../functions.php:937
+msgid "hours"
+msgstr ""
+
+#: ../functions.php:938
+msgid "minute"
+msgstr ""
+
+#: ../functions.php:938
+msgid "minutes"
+msgstr ""
+
+#: ../functions.php:939
+msgid "second"
+msgstr ""
+
+#: ../functions.php:939 ../functions.php:967
+msgid "seconds"
+msgstr ""
+
+#: ../functions.php:953
+msgid "sometime"
+msgstr ""
+
+#: ../functions.php:970
+msgid " ago"
+msgstr ""
+
+#: ../functions.php:995
+msgid "Share"
+msgstr ""
+
+#: ../functions.php:1002
+msgid "Tweet This"
+msgstr ""
+
+#: ../functions.php:1010
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../functions.php:1018
+msgid "Share on Google+"
+msgstr ""
+
+#: ../functions.php:1026
+msgid "Pin it"
+msgstr ""
+
+#: ../functions.php:1466
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:1467 ../title.php:35
+msgid "[edit]"
+msgstr ""
+
+#: ../functions.php:1474
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../header.php:44
+msgid "Close"
+msgstr ""
+
+#: ../search.php:57
+#, php-format
+msgid "%s results for '%s'"
+msgstr ""
+
+#: ../search.php:180
+msgid "Nothing Found"
+msgstr ""
+
+#: ../search.php:186
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../single-album.php:188 ../backend/posttypes/posttype-album.php:112
+msgid "Artist"
+msgstr ""
+
+#: ../single-album.php:199
+msgid "Release Date"
+msgstr ""
+
+#: ../single-album.php:210 ../backend/posttypes/posttype-album.php:125
+msgid "Label"
+msgstr ""
+
+#: ../single-album.php:221 ../backend/posttypes/posttype-album.php:131
+msgid "Catalog Number"
+msgstr ""
+
+#: ../single-event.php:167
+msgid "Time"
+msgstr ""
+
+#: ../single-event.php:181 ../single-event.php:198
+msgid "Venue"
+msgstr ""
+
+#: ../single-event.php:212
+msgid "Location"
+msgstr ""
+
+#: ../single-event.php:223
+msgid "Contact"
+msgstr ""
+
+#: ../single-event.php:234
+msgid "Status"
+msgstr ""
+
+#: ../single-event.php:245
+msgid "Price"
+msgstr ""
+
+#: ../socials.php:27 ../socials.php:28
+#: ../backend/inits/init-backend-options.php:716
+msgid "Twitter"
+msgstr ""
+
+#: ../socials.php:35 ../socials.php:36
+#: ../backend/inits/init-backend-options.php:725
+msgid "Facebook"
+msgstr ""
+
+#: ../socials.php:43 ../socials.php:44
+#: ../backend/inits/init-backend-options.php:734
+msgid "Google+"
+msgstr ""
+
+#: ../socials.php:51 ../socials.php:52
+#: ../backend/inits/init-backend-options.php:743
+msgid "Amazon"
+msgstr ""
+
+#: ../socials.php:59 ../socials.php:60
+#: ../backend/inits/init-backend-options.php:752
+msgid "YouTube"
+msgstr ""
+
+#: ../socials.php:67 ../socials.php:68
+#: ../backend/inits/init-backend-options.php:761
+msgid "Vimeo"
+msgstr ""
+
+#: ../socials.php:75 ../socials.php:76
+#: ../backend/inits/init-backend-options.php:770
+msgid "iTunes"
+msgstr ""
+
+#: ../socials.php:83 ../socials.php:84
+#: ../backend/inits/init-backend-options.php:779
+msgid "SoundCloud"
+msgstr ""
+
+#: ../socials.php:91 ../socials.php:92
+#: ../backend/inits/init-backend-options.php:788
+msgid "Beatport"
+msgstr ""
+
+#: ../socials.php:99 ../socials.php:100
+#: ../backend/inits/init-backend-options.php:797
+msgid "Mixcloud"
+msgstr ""
+
+#: ../socials.php:107 ../socials.php:108
+#: ../backend/inits/init-backend-options.php:806
+msgid "PureVolume"
+msgstr ""
+
+#: ../socials.php:115 ../socials.php:116
+#: ../backend/inits/init-backend-options.php:815
+msgid "Spotify"
+msgstr ""
+
+#: ../socials.php:123 ../socials.php:124
+#: ../backend/inits/init-backend-options.php:824
+msgid "Last.fm"
+msgstr ""
+
+#: ../socials.php:131 ../socials.php:132
+#: ../backend/inits/init-backend-options.php:833
+msgid "Myspace"
+msgstr ""
+
+#: ../socials.php:139 ../socials.php:140
+#: ../backend/inits/init-backend-options.php:842
+msgid "Grooveshark"
+msgstr ""
+
+#: ../socials.php:147 ../socials.php:148
+#: ../backend/inits/init-backend-options.php:851
+msgid "Flickr"
+msgstr ""
+
+#: ../socials.php:155 ../socials.php:156
+#: ../backend/inits/init-backend-options.php:860
+msgid "Pinterest"
+msgstr ""
+
+#: ../template-album.php:120 ../template-archives.php:243
+msgid "No albums were found."
+msgstr ""
+
+#: ../template-archives.php:80 ../backend/inits/init-backend-options.php:568
+msgid "Pages"
+msgstr ""
+
+#: ../template-archives.php:92 ../backend/inits/init-backend-options.php:450
+#: ../backend/inits/init-backend-options.php:476
+msgid "Posts"
+msgstr ""
+
+#: ../template-archives.php:113
+msgid "Upcoming Events"
+msgstr ""
+
+#: ../template-archives.php:147 ../template-event-list.php:286
+#: ../template-event.php:255
+msgid "No upcoming events were found."
+msgstr ""
+
+#: ../template-archives.php:164 ../template-event-list.php:298
+#: ../template-event.php:267
+msgid "Past Events"
+msgstr ""
+
+#: ../template-archives.php:198 ../template-event-list.php:419
+#: ../template-event-past.php:151 ../template-event.php:370
+msgid "No past events were found."
+msgstr ""
+
+#: ../template-archives.php:215 ../backend/inits/init-backend-options.php:588
+#: ../backend/posttypes/posttype-album.php:22
+#: ../backend/posttypes/posttype-album.php:23
+#: ../backend/posttypes/posttype-album.php:24
+msgid "Albums"
+msgstr ""
+
+#: ../template-archives.php:260 ../backend/inits/init-backend-options.php:608
+#: ../backend/posttypes/posttype-video.php:22
+#: ../backend/posttypes/posttype-video.php:23
+msgid "Videos"
+msgstr ""
+
+#: ../template-archives.php:288 ../template-video.php:114
+msgid "No videos were found."
+msgstr ""
+
+#: ../template-archives.php:305 ../backend/inits/init-backend-options.php:628
+#: ../backend/posttypes/posttype-gallery.php:22
+#: ../backend/posttypes/posttype-gallery.php:23
+msgid "Galleries"
+msgstr ""
+
+#: ../template-archives.php:333 ../template-gallery.php:114
+msgid "No galleries were found."
+msgstr ""
+
+#: ../template-archives.php:350
+msgid "Archives by Categories"
+msgstr ""
+
+#: ../template-archives.php:371
+msgid "Archives by Month"
+msgstr ""
+
+#: ../template-contact.php:35 ../template-contact.php:274
+msgid "Please fill the valid captcha."
+msgstr ""
+
+#: ../template-contact.php:118
+msgid "Name:"
+msgstr ""
+
+#: ../template-contact.php:119
+msgid "Phone:"
+msgstr ""
+
+#: ../template-contact.php:120
+msgid "Email:"
+msgstr ""
+
+#: ../template-contact.php:121
+msgid "Message:"
+msgstr ""
+
+#: ../template-contact.php:137 ../backend/inits/init-backend-options.php:934
+msgid "Contact Form"
+msgstr ""
+
+#: ../template-contact.php:254
+msgid ""
+"Thank you. Email has been sent. We will contact you as soon as possible."
+msgstr ""
+
+#: ../template-contact.php:265
+msgid "Sorry, an error occurred, email hasn't been sent."
+msgstr ""
+
+#: ../template-contact.php:287
+msgid "Contact form"
+msgstr ""
+
+#: ../template-contact.php:307
+msgid "Phone"
+msgstr ""
+
+#: ../template-contact.php:335
+msgid "Message"
+msgstr ""
+
+#: ../template-contact.php:370
+msgid "Send email"
+msgstr ""
+
+#: ../template-contact.php:373
+msgid "Required fields"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:319
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:325
+msgid "Delete"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:326
+msgid "Upload Files"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:327
+msgid "+ Add New File"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:483
+msgid "Order Saved"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:489
+#: ../backend/posttypes/posttype-gallery.php:110
+msgid "Upload Images"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:490
+msgid "+ Add New Image"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:530
+msgid "Delete File"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:531
+msgid "Edit File"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:664
+msgid "Drop Files Here"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:665
+msgid "or"
+msgstr ""
+
+#: ../backend/classes/class-fields.php:666
+msgid "Select Files"
+msgstr ""
+
+#: ../backend/classes/class-metabox.php:226
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../backend/classes/class-metabox.php:264
+msgid "+"
+msgstr ""
+
+#: ../backend/classes/class-metabox.php:277
+msgid "&#8211;"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:90
+msgid "Sunday"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:91
+msgid "Monday"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:92
+msgid "Tuesday"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:93
+msgid "Wednesday"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:94
+msgid "Thursday"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:95
+msgid "Friday"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:96
+msgid "Saturday"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:99
+msgid "Su"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:100
+msgid "Mo"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:101
+msgid "Tu"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:102
+msgid "We"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:103
+msgid "Th"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:104
+msgid "Fr"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:105
+msgid "Sa"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:121
+msgid "Next"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:122
+msgid "Prev"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:178
+msgid "Colors"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:184
+msgid "Header"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:248
+msgid "Text Color"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:256
+msgid "Primary Color"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:264
+msgid "Secondary Color"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:272
+msgid "Tertiary Color"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:280
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:288
+msgid "Footer Text Color"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:297
+msgid "Header Position"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:300
+msgid "Fixed"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:301
+msgid "Scroll"
+msgstr ""
+
+#: ../backend/inits/init-backend-functions.php:368
+msgid ""
+"The Featured Image is an image that is chosen as the representative image "
+"for the post. Click the link above to upload the image for this post."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:23
+msgid "General Settings"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:24
+msgid "Styling"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:25
+msgid "Reading"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:26
+msgid "Socials"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:27
+msgid "Forms"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:28
+msgid "Tracking"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:52
+msgid "Responsivity of the Theme"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:53
+msgid ""
+"Enable or disable responsivity of the theme (Enabled = media queries in "
+"\"styles/style-responsivity.css\" will be loaded)."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:57
+#: ../backend/inits/init-backend-options.php:136
+#: ../backend/inits/init-backend-options.php:156
+#: ../backend/inits/init-backend-options.php:169
+#: ../backend/inits/init-backend-options.php:182
+#: ../backend/inits/init-backend-options.php:208
+#: ../backend/inits/init-backend-options.php:221
+#: ../backend/inits/init-backend-options.php:234
+#: ../backend/inits/init-backend-options.php:402
+#: ../backend/inits/init-backend-options.php:422
+#: ../backend/inits/init-backend-options.php:435
+#: ../backend/inits/init-backend-options.php:455
+#: ../backend/inits/init-backend-options.php:468
+#: ../backend/inits/init-backend-options.php:488
+#: ../backend/inits/init-backend-options.php:521
+#: ../backend/inits/init-backend-options.php:534
+#: ../backend/inits/init-backend-options.php:547
+#: ../backend/inits/init-backend-options.php:675
+#: ../backend/inits/init-backend-options.php:688
+#: ../backend/inits/init-backend-options.php:701
+#: ../backend/inits/init-backend-options.php:881
+#: ../backend/inits/init-backend-options.php:894
+#: ../backend/inits/init-backend-options.php:907
+#: ../backend/inits/init-backend-options.php:920
+#: ../backend/inits/init-backend-options.php:971
+msgid "Enabled"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:58
+#: ../backend/inits/init-backend-options.php:137
+#: ../backend/inits/init-backend-options.php:157
+#: ../backend/inits/init-backend-options.php:170
+#: ../backend/inits/init-backend-options.php:183
+#: ../backend/inits/init-backend-options.php:209
+#: ../backend/inits/init-backend-options.php:222
+#: ../backend/inits/init-backend-options.php:235
+#: ../backend/inits/init-backend-options.php:403
+#: ../backend/inits/init-backend-options.php:423
+#: ../backend/inits/init-backend-options.php:436
+#: ../backend/inits/init-backend-options.php:456
+#: ../backend/inits/init-backend-options.php:469
+#: ../backend/inits/init-backend-options.php:489
+#: ../backend/inits/init-backend-options.php:522
+#: ../backend/inits/init-backend-options.php:535
+#: ../backend/inits/init-backend-options.php:548
+#: ../backend/inits/init-backend-options.php:676
+#: ../backend/inits/init-backend-options.php:689
+#: ../backend/inits/init-backend-options.php:702
+#: ../backend/inits/init-backend-options.php:882
+#: ../backend/inits/init-backend-options.php:895
+#: ../backend/inits/init-backend-options.php:908
+#: ../backend/inits/init-backend-options.php:921
+#: ../backend/inits/init-backend-options.php:972
+msgid "Disabled"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:65
+msgid "Images"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:72
+msgid "Logo Image"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:73
+msgid ""
+"Upload a logo image. Upload an image and then click \"Select\" or \"Insert "
+"into Post\".<br /> <strong>Best size: Anything x 80 px.</strong>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:81
+msgid "Favicon"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:82
+msgid ""
+"Upload a favicon in *.ico, *.png or *.gif format. Upload an image and then "
+"click \"Select\" or \"Insert into Post\".<br /> <strong>Required size: 16 x "
+"16 px.</strong>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:90
+msgid "WordPress Login Logo Image"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:91
+msgid ""
+"Upload a WordPress login logo image. Upload an image and then click \"Select"
+"\" or \"Insert into Post\".<br /> <strong>Required size: 274 x 100 px.</"
+"strong>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:99
+msgid "Full Screen Background Image with Backstretch"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:100
+msgid ""
+"Upload a full screen background image. Upload an image and then click "
+"\"Select\" or \"Insert into Post\".<br /> Background image of Theme "
+"Customizer will be disabled.<br /> <strong>Recommended minimum size: 1600 x "
+"1200 px.</strong>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:108
+msgid "Background Image Opacity"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:109
+msgid "Select opacity of background image."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:113
+msgid "100%"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:114
+msgid "75%"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:115
+msgid "50%"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:116
+msgid "25%"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:117
+msgid "10%"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:124
+msgid "Search"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:131
+msgid "Search Button"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:132
+msgid "Enable / disable displaying of the search button."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:144
+msgid "Slideshow"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:151
+msgid "Autoplay"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:152
+msgid "Enable / disable autoplay of the slideshow."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:164
+msgid "Arrow Navigation"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:165
+msgid "Enable / disable arrow navigation."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:177
+msgid "Arrow Navigation Auto Hide"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:178
+msgid "Enable / disable auto hide of the arrow navigation."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:190
+msgid "Arrow Navigation on Touch Devices"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:191
+msgid "Show / hide arrow navigation completely on touch devices."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:195
+msgid "Show"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:196
+msgid "Hide"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:203
+msgid "Navigate by Click"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:204
+msgid "Enable / disable navigation by click."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:216
+msgid "Drag"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:217
+msgid "Enable / disable mouse drag navigation over the slideshow."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:229
+msgid "Touch"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:230
+msgid "Enable / disable touch navigation of the slideshow."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:242
+msgid "Transition Type."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:243
+msgid "Select slideshow transition type."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:247
+msgid "Move"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:248
+msgid "Fade"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:255
+msgid "Transition Speed"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:256
+msgid "Fill the transition speed in miliseconds. Default: 1000"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:264
+msgid "Delay"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:265
+msgid "Fill the delay between slides in miliseconds. Default: 5000"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:273
+msgid "RSS"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:274
+msgid ""
+"For this setting you will need to create an account on <a href=\"http://www."
+"feedburner.com/\" target=\"_blank\">Feedburner</a>."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:281
+msgid "FeedBurner URL"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:282
+msgid ""
+"Enter your full FeedBurner URL (or any other preferred feed URL) if you wish "
+"to use FeedBurner over the standard WordPress feed. <a href=\"http://www."
+"wpbeginner.com/beginners-guide/step-by-step-guide-to-setup-feedburner-for-"
+"wordpress/\" target=\"_blank\">Step by Step Guide to Setup FeedBurner for "
+"WordPress</a>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:293
+msgid "Meta"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:300
+msgid "Default Meta Keywords"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:301
+msgid "Add default meta keywords. Separate keywords with commas."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:309
+msgid "Default Meta Description"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:310
+msgid "Add default meta description."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:326
+msgid "Custom Google Font"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:327
+msgid ""
+"Fill the full name of the font that you'd like using from Google Font API: "
+"<a href=\"http://www.google.com/webfonts\" target=\"_blank\">\n"
+"http://www.google.com/webfonts</a>.<br /> For example: Racing Sans One<br /> "
+"Empty field = Default font"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:336
+msgid "Custom CSS"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:337
+msgid ""
+"Here you can specify a custom CSS section of code. This code will be given "
+"priority over other CSS styles."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:351
+#: ../backend/posttypes/posttype-album.php:274
+#: ../backend/posttypes/posttype-callout.php:163
+#: ../backend/posttypes/posttype-event.php:270
+#: ../backend/posttypes/posttype-gallery.php:144
+#: ../backend/posttypes/posttype-slide.php:169
+#: ../backend/posttypes/posttype-video.php:151
+msgid "Date"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:358
+msgid "Select Date Format"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:359
+msgid ""
+"Please select a date format for the events and albums.<br /> d m Y = 01 02 "
+"2000<br /> m d Y = 02 01 2000<br /> Y m d = 2000 02 01<br /> Y d m = 2000 01 "
+"02<br /> F j, Y = January 1, 2000<br /> j M, Y = 1 Jan, 2000"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:363
+msgid "d m Y"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:364
+msgid "m d Y"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:365
+msgid "Y m d"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:366
+msgid "Y d m"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:367
+msgid "F j, Y (Delimiter ignored)"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:368
+msgid "j M, Y (Delimiter ignored)"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:375
+msgid "Select Date Delimiter"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:376
+msgid "Please elect delimiter what want to use between the characters of date."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:380
+msgid "Space [ ]"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:381
+msgid "Slash [/]"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:382
+msgid "Dash [-]"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:383
+msgid "Dot [.]"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:390
+#: ../backend/inits/init-backend-options.php:397
+msgid "Callouts on Homepage"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:398
+msgid "Enable / disable callout blocks on homepage."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:410
+msgid "Events on Homepage"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:417
+#: ../backend/inits/init-backend-options.php:509
+#: ../backend/posttypes/posttype-event.php:23
+#: ../backend/posttypes/posttype-event.php:24
+msgid "Events"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:418
+#: ../backend/inits/init-backend-options.php:451
+msgid "Enable / Disable latest posts on homepage."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:430
+#: ../backend/posttypes/posttype-event.php:114
+#: ../backend/posttypes/posttype-event.php:267
+msgid "Event Date"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:431
+#: ../backend/inits/init-backend-options.php:464
+msgid "Enable / disable post date on homepage."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:443
+msgid "Posts on Homepage"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:463
+msgid "Post Date"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:483
+msgid "Post Format Corner"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:484
+msgid "Enable / disable blog post format corner with icon."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:496
+#: ../backend/inits/init-widgets.php:72
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:497
+msgid "Select the sidebar location of the blog templates."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:501
+#: ../backend/inits/init-backend-options.php:560
+#: ../backend/inits/init-backend-options.php:580
+#: ../backend/inits/init-backend-options.php:600
+#: ../backend/inits/init-backend-options.php:620
+#: ../backend/inits/init-backend-options.php:640
+msgid "Right"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:502
+#: ../backend/inits/init-backend-options.php:561
+#: ../backend/inits/init-backend-options.php:581
+#: ../backend/inits/init-backend-options.php:601
+#: ../backend/inits/init-backend-options.php:621
+#: ../backend/inits/init-backend-options.php:641
+msgid "Left"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:516
+msgid "Thumbnails on Events Page"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:517
+msgid ""
+"Enable / disable thumbnails on the <strong>Events</strong> page template."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:529
+msgid "Past Events on Events Page"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:530
+msgid ""
+"Enable / disable past events on the <strong>Events</strong> page template."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:542
+msgid "Event Single Page"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:543
+msgid "Enable / disable event single page."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:555
+#: ../backend/inits/init-widgets.php:85
+msgid "Events Sidebar"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:556
+msgid "Select the sidebar location of the events templates."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:575
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:576
+msgid "Select the sidebar location of the page templates."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:595
+#: ../backend/inits/init-widgets.php:98
+msgid "Albums Sidebar"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:596
+msgid "Select the sidebar location of the album templates."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:615
+#: ../backend/inits/init-widgets.php:111
+msgid "Videos Sidebar"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:616
+msgid "Select the sidebar location of the video templates."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:635
+#: ../backend/inits/init-widgets.php:124
+msgid "Galleries Sidebar"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:636
+msgid "Select the sidebar location of the gallery templates."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:648
+msgid "Footer"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:655
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:656
+msgid "Fill the text appeared instead copyright in footer."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:670
+msgid "Header Social Icons"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:671
+msgid "Enable / disable displaying of the social icons in the header."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:683
+msgid "Footer Social Icons"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:684
+msgid "Enable / disable displaying of the social icons in the footer."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:696
+msgid "Open Links in New Window"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:697
+msgid ""
+"Enable / disable opening of the link in new window. Enabled = Open in new "
+"window/tab, Disabled = Open in actual window/tab"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:709
+msgid "Social Profiles"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:717
+msgid "Fill the absolute path to your Twitter account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:726
+msgid "Fill the absolute path to your Facebook account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:735
+msgid "Fill the absolute path to your Google+ account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:744
+msgid "Fill the absolute path to your Amazon account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:753
+msgid "Fill the absolute path to your YouTube account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:762
+msgid "Fill the absolute path to your Vimeo account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:771
+msgid "Fill the absolute path to your iTunes account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:780
+msgid "Fill the absolute path to your SoundCloud account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:789
+msgid "Fill the absolute path to your Beatport account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:798
+msgid "Fill the absolute path to your Mixcloud account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:807
+msgid "Fill the absolute path to your PureVolume account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:816
+msgid "Fill the absolute path to your Spotify account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:825
+msgid "Fill the absolute path to your Last.fm account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:834
+msgid "Fill the absolute path to your Myspace account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:843
+msgid "Fill the absolute path to your Grooveshark account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:852
+msgid "Fill the absolute path to your Flickr account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:861
+msgid "Fill the absolute path to your Pinterest account."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:869
+msgid "Sharing Box"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:876
+msgid "Twitter Button"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:877
+msgid "Enable / disable Twitter button for post sharing."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:889
+msgid "Facebook Button"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:890
+msgid "Enable / disable Facebook button for post sharing."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:902
+msgid "Google+ Button"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:903
+msgid "Enable / disable Google+ button for post sharing."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:915
+msgid "Pinterest Button"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:916
+msgid "Enable / disable Pinterest button for post sharing."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:941
+msgid "Email Address for Receiving Emails"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:942
+msgid "Fill your email address in this format: john@doe.com"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:950
+msgid "Subject of Received Emails"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:951
+msgid ""
+"Fill the subject of the email. Something as: Name of the site - Contact form."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:959
+#: ../backend/inits/init-backend-options.php:966
+msgid "reCaptcha"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:967
+msgid "Enable / disable reCaptcha for contact form."
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:979
+msgid "reCaptcha Theme"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:980
+msgid ""
+"Select reCaptcha theme. Available themes you can see on: <a href=\"https://"
+"developers.google.com/recaptcha/docs/customization\">https://developers."
+"google.com/recaptcha/docs/customization</a>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:984
+msgid "Clean"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:985
+msgid "Red"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:986
+msgid "White"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:987
+msgid "Blackglass"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:994
+msgid "Public Key [REQUIRED]"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:995
+msgid ""
+"Fill the public key. Keys you can get on: <a href=\"https://www.google.com/"
+"recaptcha/admin/create\">https://www.google.com/recaptcha/admin/create</a>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:1003
+msgid "Private Key [REQUIRED]"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:1004
+msgid ""
+"Fill the private key. Keys you can get on: <a href=\"https://www.google.com/"
+"recaptcha/admin/create\">https://www.google.com/recaptcha/admin/create</a>"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:1018
+msgid "Tracking Code"
+msgstr ""
+
+#: ../backend/inits/init-backend-options.php:1019
+msgid ""
+"Paste your Google Analytics (or other) tracking code. It will be inserted "
+"before the closing body tag of your theme."
+msgstr ""
+
+#: ../backend/inits/init-backend.php:24 ../backend/inits/init-backend.php:112
+#: ../backend/inits/init-backend.php:113
+msgid "Theme Options"
+msgstr ""
+
+#: ../backend/inits/init-backend.php:188
+msgid "Upload"
+msgstr ""
+
+#: ../backend/inits/init-backend.php:189
+msgid "Remove"
+msgstr ""
+
+#: ../backend/inits/init-backend.php:334
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: ../backend/inits/init-backend.php:345
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#: ../backend/inits/init-backend.php:351
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: ../backend/inits/init-backend.php:378
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: ../backend/inits/init-backend.php:380
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: ../backend/inits/init-backend.php:384
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ../backend/inits/init-backend.php:787
+msgid "Version "
+msgstr ""
+
+#: ../backend/inits/init-navigation.php:23
+msgid "Primary navigation"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:128
+msgid "Audio Settings"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:132
+msgid "MP3 File Upload"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:133
+msgid "Click to upload the *.mp3 audio file."
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:150
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:154
+msgid "Upload Gallery Images"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:155
+msgid "Click to upload images."
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:170
+msgid "Video Settings"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:174
+#: ../backend/posttypes/posttype-album.php:197
+#: ../backend/posttypes/posttype-event.php:199
+#: ../backend/posttypes/posttype-slide.php:127
+#: ../backend/posttypes/posttype-video.php:111
+msgid "YouTube Embed Code"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:175
+msgid ""
+"Add YouTube Video Embed Code. For Example: http://www.youtube.com/watch?"
+"v=<strong>12345abcdef</strong>."
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:180
+#: ../backend/posttypes/posttype-album.php:203
+#: ../backend/posttypes/posttype-event.php:205
+#: ../backend/posttypes/posttype-slide.php:133
+#: ../backend/posttypes/posttype-video.php:117
+msgid "Vimeo Embed Code"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:181
+msgid ""
+"Add Vimeo Video Embed Code. For example: http://vimeo.com/<strong>123456789</"
+"strong>."
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:196
+msgid "Quote Settings"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:200
+msgid "The Quote"
+msgstr ""
+
+#: ../backend/inits/init-postformats.php:201
+msgid "Input your quote."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:59
+msgid "Page Sidebar"
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:60
+msgid ""
+"Sidebar that appears on pages. Sidebar won't be displayed when won't be "
+"placed a widget."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:73
+msgid ""
+"Sidebar that appears on blog pages. Sidebar won't be displayed when won't be "
+"placed a widget."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:86
+msgid ""
+"Sidebar that appears on event pages. Sidebar won't be displayed when won't "
+"be placed a widget."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:99
+msgid ""
+"Sidebar that appears on album pages. Sidebar won't be displayed when won't "
+"be placed a widget."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:112
+msgid ""
+"Sidebar that appears on video pages. Sidebar won't be displayed when won't "
+"be placed a widget."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:125
+msgid ""
+"Sidebar that appears on gallery pages. Sidebar won't be displayed when won't "
+"be placed a widget."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:137
+msgid "Footer [Full]"
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:138
+msgid ""
+"Full width footer widget area appears on all pages. Area won't be displayed "
+"when won't be placed a widget."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:150
+msgid "Footer [1st]"
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:151
+msgid "1st footer widget area."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:163
+msgid "Footer [2nd]"
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:164
+msgid "2nd footer widget area."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:176
+msgid "Footer [3rd]"
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:177
+msgid "3rd footer widget area."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:189
+msgid "Footer [4th]"
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:190
+msgid "4th footer widget area."
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:202
+msgid "Footer [5th]"
+msgstr ""
+
+#: ../backend/inits/init-widgets.php:203
+msgid "5th footer widget area."
+msgstr ""
+
+#: ../backend/metaboxes/metabox-global.php:37
+msgid "SEO Settings"
+msgstr ""
+
+#: ../backend/metaboxes/metabox-global.php:41
+msgid "Keywords"
+msgstr ""
+
+#: ../backend/metaboxes/metabox-global.php:42
+msgid "Fill the meta keywords for this page/post. Separated by comma."
+msgstr ""
+
+#: ../backend/metaboxes/metabox-global.php:47
+msgid "Description"
+msgstr ""
+
+#: ../backend/metaboxes/metabox-global.php:48
+msgid ""
+"Fill the meta description for this page/post. Maximum of 160 characters."
+msgstr ""
+
+#: ../backend/metaboxes/metabox-post.php:40
+msgid "Post Block Options"
+msgstr ""
+
+#: ../backend/metaboxes/metabox-post.php:44
+#: ../backend/posttypes/posttype-callout.php:127
+#: ../backend/posttypes/posttype-event.php:233
+msgid "Background Color"
+msgstr ""
+
+#: ../backend/metaboxes/metabox-post.php:45
+msgid "Add or select the background color of the post block. Default: #14191e."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:25
+msgid "All Albums"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:26
+#: ../backend/posttypes/posttype-album.php:27
+msgid "Add New Album"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:28
+msgid "Edit Album"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:29
+msgid "New Album"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:30
+msgid "View Album"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:31
+msgid "Search Albums"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:32
+msgid "No Albums"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:33
+msgid "No Albums Found in Trash"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:106
+msgid "Album Options"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:113
+msgid "Fill the name of the artist."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:118
+#: ../backend/posttypes/posttype-album.php:271
+msgid "Album Release Date"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:119
+msgid "Select the release date of the album."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:126
+msgid "Fill the label."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:132
+msgid "Fill the catalog number."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:137
+msgid "iTunes Button Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:138
+msgid "Fill the iTunes button text. Example: Buy on iTunes."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:143
+msgid "iTunes Button URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:144
+msgid "Fill the URL to the album on iTunes."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:149
+msgid "Amazon Button Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:150
+msgid "Fill the Amazon button text. Example: Buy on Amazon."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:155
+msgid "Amazon Button URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:156
+msgid "Fill the URL to the album on Amazon."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:161
+msgid "Grooveshark Button Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:162
+msgid "Fill the Amazon button text. Example: Buy on Grooveshark."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:167
+msgid "Grooveshark Button URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:168
+msgid "Fill the URL to the album on Grooveshark."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:173
+msgid "SoundCloud Button Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:174
+msgid "Fill the SoundCloud button text. Example: Buy on SoundCloud."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:179
+msgid "SoundCloud Button URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:180
+msgid "Fill the URL to the album on SoundCloud."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:185
+msgid "Last.fm Button Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:186
+msgid "Fill the Last.fm button text. Example: Buy on Last.fm."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:191
+msgid "Last.fm Button URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:192
+msgid "Fill the URL to the album on Last.fm."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:198
+#: ../backend/posttypes/posttype-event.php:200
+#: ../backend/posttypes/posttype-slide.php:128
+#: ../backend/posttypes/posttype-video.php:112
+msgid ""
+"Add YouTube Video Embed Code. For Example: http://www.youtube.com/watch?"
+"v=<strong>12345abcdef</strong> (insert just code, not full url). Please note "
+"that Featured Image is required!"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:204
+#: ../backend/posttypes/posttype-event.php:206
+#: ../backend/posttypes/posttype-slide.php:134
+#: ../backend/posttypes/posttype-video.php:118
+msgid ""
+"Add Vimeo Video Embed Code. For example: http://vimeo.com/<strong>123456789</"
+"strong> (insert just code, not full url). Please note that Featured Image is "
+"required!"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:209
+msgid "Left Column Content"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:210
+msgid ""
+"Optionally you can add content to the left column of the single page. You "
+"can use HTML and shortcodes."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:215
+msgid "Right Column Content"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:216
+msgid ""
+"Optionally you can add content to the right column of the single page. You "
+"can use HTML and shortcodes."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:231
+msgid "Songs of the Album"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:237
+msgid "Upload Songs (*.mp3)"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:238
+msgid ""
+"Drop songs in *.mp3 format into the uploader or click to Select Files button."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:270
+msgid "Album Title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:272
+msgid "Album Artist"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:273
+#: ../backend/posttypes/posttype-callout.php:162
+#: ../backend/posttypes/posttype-event.php:269
+#: ../backend/posttypes/posttype-gallery.php:143
+#: ../backend/posttypes/posttype-slide.php:168
+#: ../backend/posttypes/posttype-video.php:150
+msgid "Author"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:298
+#: ../backend/posttypes/posttype-album.php:310
+#: ../backend/posttypes/posttype-callout.php:187
+#: ../backend/posttypes/posttype-event.php:294
+#: ../backend/posttypes/posttype-event.php:307
+#: ../backend/posttypes/posttype-slide.php:193
+#: ../backend/posttypes/posttype-slide.php:205
+msgid "/"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:377
+#, php-format
+msgid "Album updated. <a href=\"%s\">View album &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:378
+#: ../backend/posttypes/posttype-callout.php:231
+#: ../backend/posttypes/posttype-event.php:374
+#: ../backend/posttypes/posttype-gallery.php:183
+#: ../backend/posttypes/posttype-slide.php:250
+#: ../backend/posttypes/posttype-video.php:190
+msgid "Custom field updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:379
+#: ../backend/posttypes/posttype-callout.php:232
+#: ../backend/posttypes/posttype-event.php:375
+#: ../backend/posttypes/posttype-gallery.php:184
+#: ../backend/posttypes/posttype-slide.php:251
+#: ../backend/posttypes/posttype-video.php:191
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:380
+msgid "Album updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:381
+#, php-format
+msgid "Album restored to revision from %s"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:382
+#, php-format
+msgid "Album published. <a href=\"%s\">View album &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:383
+msgid "Album saved."
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:384
+#, php-format
+msgid ""
+"Album submitted. <a target=\"_blank\" href=\"%s\">Preview album &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:385
+#, php-format
+msgid ""
+"Album scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview album &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:385
+#: ../backend/posttypes/posttype-callout.php:238
+#: ../backend/posttypes/posttype-event.php:381
+#: ../backend/posttypes/posttype-gallery.php:190
+#: ../backend/posttypes/posttype-slide.php:257
+#: ../backend/posttypes/posttype-video.php:197
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:386
+#, php-format
+msgid ""
+"Album draft updated. <a target=\"_blank\" href=\"%s\">Preview album &rsaquo;"
+"</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-album.php:406
+msgid "Enter album title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:23
+#: ../backend/posttypes/posttype-callout.php:24
+msgid "Callouts"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:25
+msgid "Callout"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:26
+msgid "All Callouts"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:27
+#: ../backend/posttypes/posttype-callout.php:28
+msgid "Add New Callout"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:29
+msgid "Edit Callout"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:30
+msgid "New Callout"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:31
+msgid "View Callout"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:32
+msgid "Search Callouts"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:33
+msgid "No Callouts"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:34
+msgid "No Callouts Found in Trash"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:109
+msgid "Callout Options"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:115
+#: ../backend/posttypes/posttype-slide.php:109
+msgid "Show Title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:121
+#: ../backend/posttypes/posttype-slide.php:121
+msgid "The URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:122
+#: ../backend/posttypes/posttype-slide.php:122
+msgid "Insert the URL you wish to link to."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:128
+msgid ""
+"Add or select the background color of the callout block. Default: #cd503c."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:160
+msgid "Callout Block Title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:161
+msgid "Callout URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:230
+#: ../backend/posttypes/posttype-callout.php:233
+msgid "Callout block updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:234
+#, php-format
+msgid "Callout block restored to revision from %s"
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:235
+msgid "Callout block published."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:236
+msgid "Callout block saved."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:237
+msgid "Callout block submitted."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:238
+#, php-format
+msgid "Callout block scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:239
+msgid "Callout block draft updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-callout.php:259
+msgid "Enter callout block title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:25
+msgid "Event"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:26
+msgid "All Events"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:27
+#: ../backend/posttypes/posttype-event.php:28
+msgid "Add New Event"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:29
+msgid "Edit Event"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:30
+msgid "New Event"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:31
+msgid "View Event"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:32
+msgid "Search Events"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:33
+msgid "No Events"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:34
+msgid "No Events Found in Trash"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:108
+msgid "Event Options"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:120
+msgid "Event Time"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:121
+msgid "For example: 08:00PM - 11:00PM."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:126
+msgid "Event Venue"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:127
+msgid "For example: Club, Stadium etc."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:132
+msgid "Event Venue URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:137
+msgid "Event Location"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:138
+msgid "For example: London, United Kingdom"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:143
+msgid "Event Contact"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:144
+msgid "Fill the event contact (e-mail address, phone, etc.)."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:149
+msgid "Event Status"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:150
+msgid "Fill the event status (Tickets Available, Sold Out, Cancelled etc.)."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:155
+msgid "Ticket Price"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:156
+msgid "Fill the event ticket price (with currency symbol)."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:161
+msgid "Buy Tickets Button 1 Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:166
+msgid "Buy Tickets Button 1 URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:167
+#: ../backend/posttypes/posttype-event.php:178
+msgid "Fill the URL where is possible to buy tickets."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:172
+msgid "Buy Tickets Button 2 Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:177
+msgid "Buy Tickets Button 2 URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:183
+msgid "Facebook Event Button Text"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:188
+msgid "Facebook Event Button URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:189
+msgid "Fill the URL of the Facebook event."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:194
+msgid "Google Map URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:227
+msgid "Event Block Options"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:234
+msgid ""
+"Add or select the background color of the event block. Default: #14191e."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:266
+msgid "Event Title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:268
+msgid "Event Location / Event Venue"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:373
+#, php-format
+msgid "Event updated. <a href=\"%s\">View event &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:376
+msgid "Event updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:377
+#, php-format
+msgid "Event restored to revision from %s"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:378
+#, php-format
+msgid "Event published. <a href=\"%s\">View event &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:379
+msgid "Event saved."
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:380
+#, php-format
+msgid ""
+"Event submitted. <a target=\"_blank\" href=\"%s\">Preview event &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:381
+#, php-format
+msgid ""
+"Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview event &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:382
+#, php-format
+msgid ""
+"Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event &rsaquo;"
+"</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-event.php:402
+msgid "Enter event title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:24
+msgid "Gallery"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:25
+msgid "All Galleries"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:26
+#: ../backend/posttypes/posttype-gallery.php:27
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:28
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:29
+msgid "New Gallery"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:30
+msgid "View Gallery"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:31
+msgid "Search Galleries"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:32
+msgid "No Galleries"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:33
+msgid "No Galleries Found in Trash"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:104
+msgid "Gallery Images"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:111
+msgid "Drop images into the uploader or click to Select Files button."
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:142
+msgid "Gallery Title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:182
+#, php-format
+msgid "Gallery updated. <a href=\"%s\">View gallery &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:185
+msgid "Gallery updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:186
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:187
+#, php-format
+msgid "Gallery published. <a href=\"%s\">View gallery &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:188
+msgid "Gallery saved."
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:189
+#, php-format
+msgid ""
+"Gallery submitted. <a target=\"_blank\" href=\"%s\">Preview gallery &rsaquo;"
+"</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:190
+#, php-format
+msgid ""
+"Gallery scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview gallery &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:191
+#, php-format
+msgid ""
+"Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview gallery "
+"&rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-gallery.php:211
+msgid "Enter gallery title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:23
+#: ../backend/posttypes/posttype-slide.php:24
+msgid "Slides"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:25
+msgid "Slide"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:26
+msgid "All Slides"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:27
+#: ../backend/posttypes/posttype-slide.php:28
+msgid "Add New Slide"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:29
+msgid "Edit Slide"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:30
+msgid "New Slide"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:31
+msgid "View Slide"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:32
+msgid "Search Slides"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:33
+msgid "No Slides"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:34
+msgid "No Slides Found in Trash"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:103
+msgid "Slide Options"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:115
+msgid "Caption"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:116
+msgid "Add caption of the slide."
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:165
+msgid "Slide Title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:166
+msgid "Slide Caption"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:167
+msgid "Slide URL"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:249
+#: ../backend/posttypes/posttype-slide.php:252
+msgid "Slide updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:253
+#, php-format
+msgid "Slide restored to revision from %s"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:254
+msgid "Slide published."
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:255
+msgid "Slide saved."
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:256
+msgid "Slide submitted."
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:257
+#, php-format
+msgid "Slide scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:258
+msgid "Slide draft updated"
+msgstr ""
+
+#: ../backend/posttypes/posttype-slide.php:278
+msgid "Enter slide title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:24
+msgid "Video"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:25
+msgid "All Videos"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:26
+#: ../backend/posttypes/posttype-video.php:27
+msgid "Add New Video"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:28
+msgid "Edit Video"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:29
+msgid "New Video"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:30
+msgid "View Video"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:31
+msgid "Search Videos"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:32
+msgid "No Videos"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:33
+msgid "No Videos Found in Trash"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:105
+msgid "Video Options"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:149
+msgid "Video Title"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:189
+#, php-format
+msgid "Video updated. <a href=\"%s\">View video &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:192
+msgid "Video updated."
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:193
+#, php-format
+msgid "Video restored to revision from %s"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:194
+#, php-format
+msgid "Video published. <a href=\"%s\">View video &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:195
+msgid "Video saved."
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:196
+#, php-format
+msgid ""
+"Video submitted. <a target=\"_blank\" href=\"%s\">Preview Video &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:197
+#, php-format
+msgid ""
+"Video scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview video &rsaquo;</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:198
+#, php-format
+msgid ""
+"Video draft updated. <a target=\"_blank\" href=\"%s\">Preview video &rsaquo;"
+"</a>"
+msgstr ""
+
+#: ../backend/posttypes/posttype-video.php:218
+msgid "Enter video title"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:25
+msgid "Widget that displays information about you."
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:33
+msgid "Muse: About"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:41
+#: ../backend/widgets/widget-recent-albums.php:41
+#: ../backend/widgets/widget-recent-events.php:41
+#: ../backend/widgets/widget-recent-posts.php:41
+#: ../backend/widgets/widget-recent-tweet.php:40
+#: ../backend/widgets/widget-recent-videos.php:41
+#: ../backend/widgets/widget-subpages.php:62
+#: ../backend/widgets/widget-tweets.php:40
+msgid "widget_title"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:42
+msgid "widget_content"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:43
+msgid "continue_button_text"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:44
+msgid "continue_button_link"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:53
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:92
+msgid "About Us"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:93
+msgid "More about us"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:110
+#: ../backend/widgets/widget-recent-albums.php:133
+#: ../backend/widgets/widget-recent-events.php:155
+#: ../backend/widgets/widget-recent-posts.php:121
+#: ../backend/widgets/widget-recent-tweet.php:158
+#: ../backend/widgets/widget-recent-videos.php:118
+#: ../backend/widgets/widget-subpages.php:97
+#: ../backend/widgets/widget-tweets.php:161
+msgid "Title"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:120
+msgid "Content"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:132
+msgid "Show button?"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:140
+msgid "Button text"
+msgstr ""
+
+#: ../backend/widgets/widget-about.php:150
+msgid "Button URL"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-albums.php:25
+msgid "Widget that displays recent albums."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-albums.php:32
+msgid "Muse: Recent Albums"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-albums.php:119
+msgid "Recent Album"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-albums.php:143
+msgid "Number of Albums"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-events.php:25
+msgid "Widget that displays recent events."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-events.php:32
+msgid "Muse: Recent Events"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-events.php:141
+msgid "Recent Events"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-events.php:165
+msgid "Number of Events"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-posts.php:25
+msgid "Widget that displays recent posts."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-posts.php:32
+msgid "Muse: Recent Posts"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-posts.php:107
+msgid "Recent Posts"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-posts.php:131
+msgid "Number of Posts"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:25
+msgid "Widget that displays recent tweet from the Twitter account."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:32
+msgid "Muse: Recent Tweet"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:46
+#: ../backend/widgets/widget-tweets.php:46
+msgid "follow_button_text"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:68
+#: ../backend/widgets/widget-tweets.php:68
+msgid "The Twitter API is taking too long to respond. Please try again later."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:70
+#: ../backend/widgets/widget-tweets.php:70
+msgid ""
+"There was an error while attempting to contact the Twitter API. Please try "
+"again."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:72
+#: ../backend/widgets/widget-tweets.php:72
+msgid ""
+"The Twitter API returned an error while processing your request. Please try "
+"again."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:85
+#: ../backend/widgets/widget-tweets.php:85
+#, php-format
+msgid "about %s ago"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:136
+msgid "Recent Tweet"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:141
+#: ../backend/widgets/widget-tweets.php:143
+msgid "Follow Us on Twitter"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:168
+#: ../backend/widgets/widget-tweets.php:171
+msgid "Twitter Username"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:178
+#: ../backend/widgets/widget-tweets.php:191
+msgid "Load New Tweets Every"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:182
+#: ../backend/widgets/widget-tweets.php:195
+msgid "5 Minutes"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:183
+#: ../backend/widgets/widget-tweets.php:196
+msgid "15 Minutes"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:184
+#: ../backend/widgets/widget-tweets.php:197
+msgid "30 Minutes"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:185
+#: ../backend/widgets/widget-tweets.php:198
+msgid "1 Hour"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:186
+#: ../backend/widgets/widget-tweets.php:199
+msgid "2 Hours"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:187
+#: ../backend/widgets/widget-tweets.php:200
+msgid "4 Hours"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:188
+#: ../backend/widgets/widget-tweets.php:201
+msgid "12 Hours"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:189
+#: ../backend/widgets/widget-tweets.php:202
+msgid "24 Hours"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:190
+#: ../backend/widgets/widget-tweets.php:203
+msgid "48 Hours"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:200
+#: ../backend/widgets/widget-tweets.php:213
+msgid "Display Follow Button"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:208
+#: ../backend/widgets/widget-tweets.php:221
+msgid "Follow Button Text"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-tweet.php:220
+#: ../backend/widgets/widget-tweets.php:233
+msgid "Hide Replies"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-videos.php:25
+msgid "Widget that displays recent videos."
+msgstr ""
+
+#: ../backend/widgets/widget-recent-videos.php:32
+msgid "Muse: Recent Videos"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-videos.php:104
+msgid "Recent Videos"
+msgstr ""
+
+#: ../backend/widgets/widget-recent-videos.php:128
+msgid "Number of Videos"
+msgstr ""
+
+#: ../backend/widgets/widget-subpages.php:25
+msgid ""
+"Widget that displays the sub-pages of the current page. Widget only appears "
+"if there are sub-pages of the current page."
+msgstr ""
+
+#: ../backend/widgets/widget-subpages.php:33
+msgid "Muse: Subpages"
+msgstr ""
+
+#: ../backend/widgets/widget-subpages.php:85
+msgid "Sub Pages"
+msgstr ""
+
+#: ../backend/widgets/widget-tweets.php:25
+msgid "Widget that displays latest tweets from the Twitter account."
+msgstr ""
+
+#: ../backend/widgets/widget-tweets.php:32
+msgid "Muse: Tweets"
+msgstr ""
+
+#: ../backend/widgets/widget-tweets.php:137
+msgid "Latest Tweets"
+msgstr ""
+
+#: ../backend/widgets/widget-tweets.php:181
+msgid "Number of Tweets"
+msgstr ""
