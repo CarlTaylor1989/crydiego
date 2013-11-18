@@ -16,6 +16,7 @@
 	HTML += '		<a href="#" class="grey">#73717C</a>';
 	HTML += '		<a href="#" class="green">#3AC76F</a>';
 	HTML += '		<a href="#" class="orange">#FF6D00</a>';
+	HTML += '       <a href="#" class="cd-custom">#92A59B</a>';
 	HTML += '	</div>';
 	HTML += '	<hr />';	  
 	HTML += '	<h2>Background Image:</h2>';

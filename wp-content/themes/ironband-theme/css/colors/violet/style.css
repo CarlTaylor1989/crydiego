@@ -15,13 +15,13 @@ a,
 .comment-reply-title small a:hover,
 .comments-title,
 .comment-reply-title {
-	color: #5763F4;
+	color: #D2945B;
 }
 
 ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 .nav-menu .has-drop-down ul a:hover {
-	background-color: #5763F4;
+	background-color: #92A59B;
 }
 
 .nav-menu .current_page_item > a,
@@ -29,119 +29,119 @@ ul.nav-menu ul a:hover,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
 	color: #fff;
-	background-color: #5763F4;
+	background-color: #92A59B;
 }
 
 .marquee .tp-leftarrow,
 .marquee .tp-rightarrow{
-	background:#5763F4;
+	background:#92A59B;
 }
 .marquee .more{
-	background:#5763F4;
+	background:#92A59B;
 	color:#fff;
 }
 .player-box .jp-progress .jp-play-bar{
-	background:#5763F4;
+	background:#92A59B;
 }
 .iron_widget_recent_tweets .meta .time a{
-	color:#5763F4;
+	color:#92A59B;
 }
 .carousel .btn-prev:hover,
 .carousel .btn-next:hover{
-	background:#5763F4;
+	background:#92A59B;
 }
 .carousel .slide a.hover,
 .concert-box .hover-box,
 .article a.hover{
-	background:#5763F4;
+	background:#92A59B;
 }
 .carousel .datetime,
 .article .datetime{
-	color:#5763F4;
+	color:#92A59B;
 }
 .pages .current,
 .pages a:hover,
 .button-more:hover{
-	background:#5763F4;
+	background:#92A59B;
 	color:#1a1a1a;
 }
 .single-post h2{
-	color:#5763F4;
+	color:#92A59B;
 }
 .meta .datetime{
-	color:#5763F4;
+	color:#92A59B;
 	background:#fff;
 }
 .blockquote-block .title{
-	color:#5763F4;
+	color:#92A59B;
 }
 .blockquote-block figcaption{
-	color:#5763F4;
+	color:#92A59B;
 }
 a.button,
 .comment-form #submit,
 .wpcf7-submit{
-	background:#5763F4;
+	background:#92A59B;
 }
 span.wpcf7-not-valid-tip-no-ajax,
 .wpcf7-response-output{
-	color: #5763F4;
+	color: #92A59B;
 }
 .filters-block a.active{
-	background:#5763F4 !important;
+	background:#92A59B !important;
 }
 .media-block a.hover{
-	background:#5763F4;
+	background:#92A59B;
 	color:#1a1a1a;
 }
 .media-block .datetime,
 .media-block .category{
-	color:#5763F4;
+	color:#92A59B;
 }
 .photos-list .hover-text span{
-	color:#5763F4;
+	color:#92A59B;
 }
 .contact-box .phone{
-	color:#5763F4;
+	color:#92A59B;
 }
 .form input[type="submit"]{
-	background:#5763F4;
+	background:#92A59B;
 	color:#000;
 }
 .error{
-	color:#5763F4
+	color:#92A59B
 }
 input.error{
-	border-color:#5763F4!important
+	border-color:#92A59B!important
 }
 .success span{
-	color:#5763F4;font-size: 30px;
+	color:#92A59B;font-size: 30px;
 }
 .info-section h2{
-	color:#5763F4;
+	color:#92A59B;
 }
 .concerts-list .title-row .date {
-	color:#5763F4;
+	color:#92A59B;
 }
 .concerts-list .title-row .time {
 	color:#000000;
 }
 .concerts-list .title-row .time,
 .concerts-list .title-row.hover .buttons {
-	background:#5763F4;
+	background:#92A59B;
 }
 .concerts-list .expanded .title-row .link{
-	color:#5763F4 !important;
+	color:#92A59B !important;
 }
 .concerts-list .title-row.hover .button:hover{
 	color:#fff;
 }
 .concerts-list .expanded .title-row .button{
-	background:#5763F4 !important;
+	background:#92A59B !important;
 	color:#000 !important;
 }
 .concerts-list .expanded .title-row:after{
-	background:#5763F4;
+	background:#92A59B;
 }
 
 @media only screen and (min-width: 768px){
@@ -149,46 +149,46 @@ input.error{
 	/* 5.3 Event */
 
 		.concerts-list .title-row.hover .buttons .button {
-			color: #5763F4;
+			color: #92A59B;
 		}
 }
 
 .iron_widget_newsletter label span {
-	color:#5763F4;
+	color:#92A59B;
 }
 .iron_widget_newsletter input[type="submit"]:focus,
 .iron_widget_newsletter input[type="submit"]:hover {
-	background:#5763F4;
+	background:#92A59B;
 }
 .iron_widget_newsletter .form-status {
-    color:#5763F4;
+    color:#92A59B;
 }
 .select-options .item-selected a{
-	background:#5763F4;
+	background:#92A59B;
 }
 .concerts-list .title-row .link{
-	color:#5763F4;
+	color:#92A59B;
 }
 .concerts-list .expanded .title-row .opener:hover:after{
-	background:#5763F4;
+	background:#92A59B;
 }
 .concerts-list .title-row .button{
-	background:#5763F4;
+	background:#92A59B;
 	color:#000;
 }
 .icon-concert-dropdown,
 li.expanded .title-row .icon-concert-dropdown {
-	color: #5763F4;
+	color: #92A59B;
 }
 .media-decoration.media-audio {
-	background: #5763F4;
+	background: #92A59B;
 }
 .media-block a.hover .media-decoration.media-audio,
 .media-block a:hover .media-decoration.media-audio {
-	color: #5763F4;
+	color: #92A59B;
 }
 .media-decoration.media-video {
-	color: #5763F4;
+	color: #92A59B;
 }
 .video-block .btn-play {
 	background-image: url(sprite.png)!important;
@@ -202,18 +202,18 @@ li.expanded .title-row .icon-concert-dropdown {
 .player-box a:hover [class*=" icon-"],
 .social-networks a:hover [class^="icon-"],
 .social-networks a:hover [class*=" icon-"] {
-	background-color: #5763F4;
+	background-color: #92A59B;
 }
 
 .carousel .video-box .icon-play {
-	background-color: #5763F4;
+	background-color: #92A59B;
 }
 .carousel .video-box .btn-play {
-	color: #5763F4;
+	color: #92A59B;
 }
 
 .terms-list small,
 .terms-list [class^="icon-"],
 .terms-list [class*=" icon-"] {
-	color: #5763F4;
+	color: #92A59B;
 }
